@@ -1,34 +1,16 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)// -->
 <html lang="en-US" data-lang="en-US" crm-lang="en-US" dir="ltr" crm-lcid="1033" same-site-mode="None">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style data-merge-styles="true"></style>
-
-    <style data-merge-styles="true"></style>
-    <style data-merge-styles="true"></style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script type="text/javascript">
-
-    </script>
     <title>
-
-        Home
-
+        Mobius AI, Inc
     </title>
 
      <script type="text/javascript">
         // Refresh all powerBI Iframes on Login in one Iframe
-        window.addEventListener('message', function (event) {
-            if (event && event.data && event.data == 'refreshPowerBI') {
-                $("iframe.powerbi").each(function () {
-                    this.src = this.src;
-                });
-            }
-        });
-
         // Fix for incorrect viewport width setting in IE 10 on Windows Phone 8.
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
             var msViewportStyle = document.createElement("style");
@@ -36,35 +18,12 @@
             document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
         }
     </script>
-
-
-
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-
     <link href="./css/font-awesome.bundle-3d8a58a48f.css"
         onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
         rel="stylesheet">
-
-    <link href="./css/preform.bundle-5181bf1676.css"
-        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/preform.bundle-5181bf1676.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
-        rel="stylesheet">
-
-
-
-
-
     <link href="./css/theme.css" rel="stylesheet">
     <link href="./css/portalbasictheme.css" rel="stylesheet">
-
-
-
-
-
-
-
-    <link href="./css/pwa-style.bundle-2739c60227.css"
-        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/pwa-style.bundle-2739c60227.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
-        rel="stylesheet">
 
     <style data-load-themed-styles="true" type="text/css">
         .resultContent_ae2a2ef5 {
@@ -1132,120 +1091,13 @@
 
 
 
-    <div id="offlineNotificationBar" style="display: none;">
-        <img alt="web" id="web"
-            onerror="javascript: var target = event.target; var img = document.createElement(&#39;img&#39;); img.src = &#39;/css/images/web.png&#39;; img.alt = &#39;web&#39;; img.id = &#39;web&#39; ; target.insertAdjacentElement(&#39;afterend&#39;,img); target.remove();"
-            src="./images/web.png">
-        <div id="message">You’re offline. This is a read only version of the page.</div>
-        <div id="close" onclick="this.parentElement.style.display=&#39;none&#39;;"><img alt="close"
-                onerror="javascript: var target = event.target; var img = document.createElement(&#39;img&#39;); img.src = &#39;/css/images/close.png&#39;; img.alt = &#39;close&#39;; img.id = &#39;&#39; ; target.insertAdjacentElement(&#39;afterend&#39;,img); target.remove();"
-                src="./images/close.png"></div>
-    </div>
+   
 
+     
 
+  
 
-    <script type="text/javascript">
-        window.DisableCkEditor = window.DisableCkEditor || {};
-        DisableCkEditor.Value = 'False';
-    </script>
-
-    <script type="text/javascript">
-        var enableOmniChannelWidgetWithSiteCopilot = 'False';
-        if (enableOmniChannelWidgetWithSiteCopilot === "True" || enableOmniChannelWidgetWithSiteCopilot === "true") {
-            const authUrl = window.location.origin + "/_services/auth/portalusertoken";
-            const fetchWithRetries = async (url, options, retries) => {
-                try {
-                    const authResponse = await fetch(url, options);
-                    const token = await authResponse.text();
-                    sessionStorage['c2Token'] = token;
-                } catch (err) {
-                    if (retries === 1) throw err;
-                    return await fetchWithRetries(url, options, retries - 1);
-                }
-            };
-            fetchWithRetries(authUrl, { method: "POST" }, 4);
-        }
-    </script>
-
-    <script type="text/javascript">
-        var isPvaBotAuthenticated = sessionStorage['isPvaBotAuthenticated'];
-        var isPortalUserLoggedIn = 'False';
-
-        if ((isPvaBotAuthenticated != null || isPvaBotAuthenticated != undefined) && isPvaBotAuthenticated != isPortalUserLoggedIn) {
-            sessionStorage['triggerPvaBotSignOut'] = true;
-            sessionStorage.removeItem('c2Token');
-            sessionStorage.removeItem('directLinetoken');
-            sessionStorage.removeItem('conversation_Id');
-        }
-        sessionStorage['isPvaBotAuthenticated'] = isPortalUserLoggedIn;
-    </script>
-
-    <script type="text/javascript">
-        window["Microsoft"] = window["Microsoft"] || {};
-        window["Microsoft"].Dynamic365 = {
-            Portal: {
-
-                User: {
-                    userName: '',
-                    contactId: ''
-                },
-
-                version: '9.6.6.18',
-                type: 'PowerPages_BlankTemplate_V2',
-                id: 'f26bb586-9183-48d8-8211-3cf9649754e6',
-                geo: 'NAM',
-                tenant: '03c92e06-4b92-4dcc-a65f-55e83fbc34ae',
-                correlationId: '54404752-ba29-4696-bce7-af431191d6ba',
-                isTelemetryEnabled: 'True',
-                InstrumentationSettings: {
-                    instrumentationKey: '197418c5cb8c4426b201f9db2e87b914-87887378-2790-49b0-9295-51f43b6204b1-7172',
-                    collectorEndpoint: 'https://us-mobile.events.data.microsoft.com/OneCollector/1.0/'
-                },
-                timerProfileForBatching: 'NEAR_REAL_TIME'
-            }
-        }
-
-        // Mark request not cacheable if Dynamics365PortalAnalytics cookie is being refreshed by the server or if the cookie in request header is invalid
-
-
-        // For client side telemetry intializing Dynamics365PortalAnalytics cookie object
-
-        window["Microsoft"].Dynamic365.Portal.dynamics365PortalAnalytics = 'KjBmHzS1WNoNxAr7hxgpW0i8TCuSaePu7fvYYP4Dtu_fq_FixYTEOR0jY59JsK0r-Zx0ca8tPYOSnzJvsLxAk2FEzIR8JgKrVtqPwI-3TmUygq3hvrNziwV429ZsHHSJ_QDWW3OcX_QW3AdntkLNZQ2'; // CodeQL [SM00430] False Positive: only alphanumeric chars allowed, for non-alphanumeric char it will return INVALID_CHARACTERS_IN_COOKIE 
-
-
-    </script>
-
-    <script type="text/javascript">
-
-
-
-        const intercept = () => {
-            let send = XMLHttpRequest.prototype.send;
-            XMLHttpRequest.prototype.send = function () {
-                this.addEventListener('readystatechange', function () {
-                    if (this.readyState === 4 && this.getAllResponseHeaders().indexOf("x-ms-user-trace") >= 0 && this.getResponseHeader('x-ms-user-trace')) {
-                        try {
-                            var userTrace = JSON.parse(atob(this.getResponseHeader('x-ms-user-trace')));
-                            document.dispatchEvent(new CustomEvent('updateDevToolRuntime',
-                                { detail: userTrace }
-                            ));
-                        }
-                        catch (err) {
-                            console.log("In intercept for ajax call, Exception while parsing UserTrace header" + err);
-                        }
-                    }
-                }, false);
-                send.apply(this, arguments);
-            };
-        };
-        intercept();
-
-        document.addEventListener("pagesRuntimeMessageProcessedInDevtool", function () {
-            ClientLogWrapper.getLogger().traceInfo("pagesRuntimeMessageProcessedInDevtool", "Devtool");
-        });
-
-
-    </script>
+  
 
 
 
@@ -1335,36 +1187,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-    <script type="text/javascript">
-        window.onload = function () {
-            if (window.navigator.appName == 'Microsoft Internet Explorer' || window.navigator.userAgent.indexOf('Trident') > 0) {
-                var searchElement = document.getElementById('search');
-                if (searchElement != null) searchElement.setAttribute('href', '');
-            }
-        };
-        function setHeight() {
-            var windowHeight = window.innerHeight - 140;
-            var navbar = document.getElementById('navbar');
-            if (navbar) {
-                navbar.style.maxHeight = windowHeight + 'px';
-            }
-        }
-        window.addEventListener('resize', function (event) {
-            setHeight();
-        });
-    </script>
-
-
-
-
     <!-- Default studio template. Please do not modify -->
     <div id="mainContent" class="wrapper-body" role="main">
         <div class="page-copy">
@@ -1500,15 +1322,6 @@
         </div>
 
     </div>
-
-
-    <!-- Power virtual agents web template V2.0-->
-
-  
-
-
-
-
 
     <footer role="contentinfo" class="footer">
         <div class="footer-bottom hidden-print">
