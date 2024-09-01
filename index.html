@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://mobiusai-a5e2.powerappsportals.com/ -->
+<html lang="en-US" data-lang="en-US" crm-lang="en-US" dir="ltr" crm-lcid="1033" same-site-mode="None">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style data-merge-styles="true"></style>
+
+    <style data-merge-styles="true"></style>
+    <style data-merge-styles="true"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript">
+
+    </script>
+    <title>
+
+        Home
+
+    </title>
+
+     <script type="text/javascript">
+        // Refresh all powerBI Iframes on Login in one Iframe
+        window.addEventListener('message', function (event) {
+            if (event && event.data && event.data == 'refreshPowerBI') {
+                $("iframe.powerbi").each(function () {
+                    this.src = this.src;
+                });
+            }
+        });
+
+        // Fix for incorrect viewport width setting in IE 10 on Windows Phone 8.
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+
+
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="./css/font-awesome.bundle-3d8a58a48f.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+    <link href="./css/preform.bundle-5181bf1676.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/preform.bundle-5181bf1676.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+
+
+
+
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/portalbasictheme.css" rel="stylesheet">
+
+
+
+
+
+
+
+    <link href="./css/pwa-style.bundle-2739c60227.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/pwa-style.bundle-2739c60227.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+    <style data-load-themed-styles="true" type="text/css">
+        .resultContent_ae2a2ef5 {
+            display: table-row
+        }
+
+        .resultContent_ae2a2ef5 .resultItem_ae2a2ef5 {
+            display: table-cell;
+            vertical-align: bottom
+        }
+
+        .peoplePickerPersona_ae2a2ef5 {
+            width: 180px
+        }
+
+        .peoplePickerPersona_ae2a2ef5 .ms-Persona-details {
+            width: 100%
+        }
+
+        .peoplePicker_ae2a2ef5 .ms-BasePicker-text {
+            min-height: 40px
+        }
+
+        .peoplePickerPersonaContent_ae2a2ef5 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+    </style>
+    <style data-load-themed-styles="true" type="text/css">
+        .callout_0508e60b .ms-Suggestions-itemButton {
+            padding: 0;
+            border: none
+        }
+
+        .callout_0508e60b .ms-Suggestions {
+            min-width: 300px
+        }
+    </style>
+    <style data-load-themed-styles="true" type="text/css">
+        .resultContent_a17eb2a2 {
+            display: table-row
+        }
+
+        .resultContent_a17eb2a2 .resultItem_a17eb2a2 {
+            display: table-cell;
+            vertical-align: bottom
+        }
+
+        .peoplePickerPersona_a17eb2a2 {
+            width: 180px
+        }
+
+        .peoplePickerPersona_a17eb2a2 .ms-Persona-details {
+            width: 100%
+        }
+
+        .peoplePicker_a17eb2a2 .ms-BasePicker-text {
+            min-height: 40px
+        }
+
+        .peoplePickerPersonaContent_a17eb2a2 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 7px 12px
+        }
+    </style>
+    <style type="text/css">
+        .pva-embedded-web-chat-widget {
+            background-color: #484644;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3.2px 7.2px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px;
+            box-sizing: content-box;
+            display: block;
+            height: 44px;
+            margin: 0;
+            margin-left: auto;
+            padding: 0;
+            width: 44px;
+        }
+
+        .pva-embedded-web-chat-widget-icon {
+            display: block;
+            height: 23px;
+            margin: 11.5px 10.5px;
+            padding: 0;
+            width: 21px;
+        }
+
+        .pva-embedded-web-chat-widget-hidden {
+            display: none;
+        }
+
+        .pva-embedded-web-chat-widget:hover .pva-embedded-web-chat-widget-tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .pva-embedded-web-chat-widget .pva-embedded-web-chat-widget-tooltip-text {
+            visibility: hidden;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            font-family: "Segoe UI Semibold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            box-sizing: border-box;
+            border-radius: 2px;
+            box-shadow: rgb(0 0 0 / 13%) 0px 3.2px 7.2px 0px, rgb(0 0 0 / 11%) 0px 0.6px 1.8px 0px;
+            outline: transparent;
+            background: white;
+            padding: 8px;
+            width: 264px;
+            color: #323130;
+            overflow: hidden;
+            height: 34px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .pva-embedded-web-chat-widget-tooltip-text {
+            bottom: 62px;
+            right: 0;
+        }
+    </style>
+    <style type="text/css">
+        .pages-chatbot-header {
+            background-color: rgb(72, 70, 68);
+            color: rgb(255, 255, 255);
+            height: 36px;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 0px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            margin: 0;
+            overflow: auto;
+        }
+
+        .pages-chatbot-header-button-container {
+            display: inline;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .pages-chatbot-header-minimize-button {
+            outline: transparent;
+            position: relative;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            padding: 4px 4px;
+            text-decoration: none;
+            text-align: center;
+            width: 25px;
+            background-color: transparent;
+            user-select: none;
+        }
+
+        .pages-chatbot-header-minimize-tooltip {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            border: 0px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .pages-chatbot-header-hidden {
+            display: none;
+        }
+    </style>
+    <!-- <script src="./js/webchat.js"></script> -->
+    <style type="text/css">
+        .pva-embedded-web-chat-window {
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3.2px 7.2px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px;
+            display: block;
+            height: 90%;
+            width: 100%;
+            background: white;
+        }
+
+        .main {
+            margin: 18px;
+            border-radius: 4px;
+        }
+
+        .pva-embedded-web-chat-window-hidden {
+            display: none;
+        }
+
+        .pva-privacy-message {
+            border: none;
+            background: rgb(241, 240, 240);
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3.2px 7.2px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px;
+            display: flex;
+            align-items: center;
+            height: 44px;
+            width: 100%;
+            overflow: auto;
+        }
+
+        .pva-privacy-message p {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 12px;
+            margin-bottom: 16px;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #323130;
+        }
+
+        .webchat__bubble.webchat__bubble--from-user p {
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            color: #323130;
+        }
+
+        .webchat__bubble:not(.webchat__bubble--from-user) p {
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            color: #323130;
+        }
+
+        .webchat__bubble.webchat__bubble--hide-nub .webchat__bubble__nub-pad {
+            width: 8px;
+        }
+
+        .webchat__send-box {
+            background: rgb(241, 240, 240);
+        }
+
+        .webchat__send-box__main {
+            margin: 0 10px;
+            margin-top: 10px;
+            height: 44px;
+            border-radius: 2px;
+        }
+
+        .webchat__send-box-text-box {
+            overflow: hidden;
+        }
+
+        .webchat__send-box-text-box .webchat__send-box-text-box__input {
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+            font-size: 14px !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+        }
+
+        @media (max-width: 450px) {
+            div.pva-embedded-web-chat[data-minimized='false'] {
+                width: 50%;
+            }
+
+            .webchat__keyboard-help__two-panes .webchat__keyboard-help__image {
+                width: 50px;
+            }
+
+            h2.webchat__keyboard-help__header {
+                margin-top: 20px !important;
+            }
+        }
+    </style>
+    <style type="text/css">
+        .pva-embedded-web-chat {
+            border: none;
+            bottom: 16px;
+            box-sizing: border-box;
+            display: block;
+            margin: 0;
+            max-height: calc(100vh - 32px);
+            max-width: calc(100vw - 32px);
+            padding: 0;
+            position: fixed;
+            right: 16px;
+        }
+
+        .pva-embedded-web-chat[data-minimized='false'] {
+            height: 80%;
+            width: 25%;
+            max-width: 400px;
+            max-height: 740px;
+        }
+
+        .pva-embedded-web-chat-widget-container {
+            display: flex;
+            flex-direction: column-reverse;
+            height: 100%;
+        }
+
+        .pva-embedded-web-chat-window-container {
+            height: 100%;
+            width: 100%;
+        }
+
+        .pva-embedded-web-chat[data-minimized='false']>.pva-embedded-web-chat-widget-container {
+            display: none;
+        }
+
+        .pva-embedded-web-chat[data-minimized='false']>.pva-embedded-web-chat-window-container {
+            display: block;
+        }
+
+        .pva-embedded-web-chat[data-minimized='true']>.pva-embedded-web-chat-window-container {
+            display: none;
+        }
+    </style>
+    <style data-load-themed-styles="true">
+        .pickerText_cc9894a7 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #b2b5b8;
+            min-width: 180px;
+            padding: 1px;
+            min-height: 32px
+        }
+
+        .pickerText_cc9894a7:hover {
+            border-color: #ffe3b3
+        }
+
+        .pickerInput_cc9894a7 {
+            height: 34px;
+            border: none;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            outline: 0;
+            padding: 0 6px 0;
+            margin: 1px
+        }
+
+        .pickerInput_cc9894a7::-ms-clear {
+            display: none
+        }
+
+        .root_2f55324e {
+            min-width: 260px
+        }
+
+        .suggestionsItem_2f55324e {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            overflow: hidden
+        }
+
+        .suggestionsItem_2f55324e:hover {
+            background: #f4f4f4
+        }
+
+        .suggestionsItem_2f55324e:hover .closeButton_2f55324e {
+            display: block
+        }
+
+        .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e {
+            background: #eaeaea
+        }
+
+        .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e:hover {
+            background: #c8c8c8
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e:hover {
+                background: Highlight;
+                color: HighlightText
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e {
+                background: Highlight;
+                color: HighlightText;
+                -ms-high-contrast-adjust: none
+            }
+        }
+
+        .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e .closeButton_2f55324e:hover {
+            background: #b2b5b8;
+            color: var(--portalThemeColor8)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e .itemButton_2f55324e {
+                color: HighlightText
+            }
+        }
+
+        .suggestionsItem_2f55324e .closeButton_2f55324e {
+            display: none;
+            color: #9a9ea1
+        }
+
+        .suggestionsItem_2f55324e .closeButton_2f55324e:hover {
+            background: #eaeaea
+        }
+
+        .actionButton_2f55324e {
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+            margin: 0;
+            position: relative;
+            border-top: 1px solid #eaeaea;
+            height: 40px;
+            width: 100%;
+            font-size: 12px
+        }
+
+        [dir=ltr] .actionButton_2f55324e {
+            padding-left: 8px
+        }
+
+        [dir=rtl] .actionButton_2f55324e {
+            padding-right: 8px
+        }
+
+        html[dir=ltr] .actionButton_2f55324e {
+            text-align: left
+        }
+
+        html[dir=rtl] .actionButton_2f55324e {
+            text-align: right
+        }
+
+        .actionButton_2f55324e:hover {
+            background-color: #eaeaea;
+            cursor: pointer
+        }
+
+        .actionButton_2f55324e:active,
+        .actionButton_2f55324e:focus {
+            background-color: #ffe3b3
+        }
+
+        .actionButton_2f55324e .ms-Button-icon {
+            font-size: 16px;
+            width: 25px
+        }
+
+        .actionButton_2f55324e .ms-Button-label {
+            margin: 0 4px 0 9px
+        }
+
+        html[dir=rtl] .actionButton_2f55324e .ms-Button-label {
+            margin: 0 9px 0 4px
+        }
+
+        .buttonSelected_2f55324e {
+            background-color: #ffe3b3
+        }
+
+        .suggestionsTitle_2f55324e {
+            padding: 0 12px;
+            color: var(--portalThemeColor4);
+            font-size: 12px;
+            line-height: 40px;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .suggestionsContainer_2f55324e {
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 300px;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .suggestionsNone_2f55324e {
+            text-align: center;
+            color: #797775;
+            font-size: 12px;
+            line-height: 30px
+        }
+
+        .suggestionsSpinner_2f55324e {
+            margin: 5px 0;
+            white-space: nowrap;
+            line-height: 20px;
+            font-size: 12px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_2f55324e {
+            padding-left: 14px
+        }
+
+        html[dir=rtl] .suggestionsSpinner_2f55324e {
+            padding-right: 14px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_2f55324e {
+            text-align: left
+        }
+
+        html[dir=rtl] .suggestionsSpinner_2f55324e {
+            text-align: right
+        }
+
+        .suggestionsSpinner_2f55324e .ms-Spinner-circle {
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        .suggestionsSpinner_2f55324e .ms-Spinner-label {
+            display: inline-block;
+            margin: 0 10px 0 16px;
+            vertical-align: middle
+        }
+
+        html[dir=rtl] .suggestionsSpinner_2f55324e .ms-Spinner-label {
+            margin: 0 16px 0 10px
+        }
+
+        .itemButton_2f55324e.itemButton_2f55324e {
+            width: 100%;
+            padding: 0;
+            min-width: 0;
+            height: 100%
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .itemButton_2f55324e.itemButton_2f55324e {
+                color: WindowText
+            }
+        }
+
+        .itemButton_2f55324e.itemButton_2f55324e:hover {
+            color: #55595c
+        }
+
+        .closeButton_2f55324e.closeButton_2f55324e {
+            padding: 0 4px;
+            height: auto;
+            width: 32px
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .closeButton_2f55324e.closeButton_2f55324e {
+                color: WindowText
+            }
+        }
+
+        .closeButton_2f55324e.closeButton_2f55324e:hover {
+            background: #c8c8c8;
+            color: #55595c
+        }
+
+        .suggestionsAvailable_2f55324e {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .suggestionsContainer_a151d363 {
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 300px
+        }
+
+        .suggestionsContainer_a151d363 .ms-Suggestion-item:hover {
+            background-color: #f4f4f4;
+            cursor: pointer
+        }
+
+        .suggestionsContainer_a151d363 .is-suggested {
+            background-color: #fff0d7
+        }
+
+        .suggestionsContainer_a151d363 .is-suggested:hover {
+            background-color: #ffe3b3;
+            cursor: pointer
+        }
+
+        .root_e4eecb3d {
+            min-width: 260px
+        }
+
+        .actionButton_e4eecb3d {
+            background: 0 0;
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            font-size: 12px
+        }
+
+        html[dir=ltr] .actionButton_e4eecb3d {
+            text-align: left
+        }
+
+        html[dir=rtl] .actionButton_e4eecb3d {
+            text-align: right
+        }
+
+        .actionButton_e4eecb3d:hover {
+            background-color: #f4f4f4;
+            cursor: pointer
+        }
+
+        .actionButton_e4eecb3d:active,
+        .actionButton_e4eecb3d:focus {
+            background-color: #ffe3b3
+        }
+
+        .actionButton_e4eecb3d .ms-Button-icon {
+            font-size: 16px;
+            width: 25px
+        }
+
+        .actionButton_e4eecb3d .ms-Button-label {
+            margin: 0 4px 0 9px
+        }
+
+        html[dir=rtl] .actionButton_e4eecb3d .ms-Button-label {
+            margin: 0 9px 0 4px
+        }
+
+        .buttonSelected_e4eecb3d {
+            background-color: #fff0d7
+        }
+
+        .buttonSelected_e4eecb3d:hover {
+            background-color: #ffe3b3;
+            cursor: pointer
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .buttonSelected_e4eecb3d:hover {
+                background-color: Highlight;
+                color: HighlightText
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .buttonSelected_e4eecb3d {
+                background-color: Highlight;
+                color: HighlightText;
+                -ms-high-contrast-adjust: none
+            }
+        }
+
+        .suggestionsTitle_e4eecb3d {
+            font-size: 12px
+        }
+
+        .suggestionsSpinner_e4eecb3d {
+            margin: 5px 0;
+            white-space: nowrap;
+            line-height: 20px;
+            font-size: 12px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_e4eecb3d {
+            padding-left: 14px
+        }
+
+        html[dir=rtl] .suggestionsSpinner_e4eecb3d {
+            padding-right: 14px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_e4eecb3d {
+            text-align: left
+        }
+
+        html[dir=rtl] .suggestionsSpinner_e4eecb3d {
+            text-align: right
+        }
+
+        .suggestionsSpinner_e4eecb3d .ms-Spinner-circle {
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        .suggestionsSpinner_e4eecb3d .ms-Spinner-label {
+            display: inline-block;
+            margin: 0 10px 0 16px;
+            vertical-align: middle
+        }
+
+        html[dir=rtl] .suggestionsSpinner_e4eecb3d .ms-Spinner-label {
+            margin: 0 16px 0 10px
+        }
+
+        .itemButton_e4eecb3d {
+            height: 100%;
+            width: 100%;
+            padding: 7px 12px
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .itemButton_e4eecb3d {
+                color: WindowText
+            }
+        }
+
+        .screenReaderOnly_e4eecb3d {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .pickerText_15a92175 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #b2b5b8;
+            min-width: 180px;
+            min-height: 30px
+        }
+
+        .pickerText_15a92175:hover {
+            border-color: var(--portalThemeColor8)
+        }
+
+        .pickerText_15a92175.inputFocused_15a92175 {
+            position: relative;
+            border-color: var(--portalThemeColor4)
+        }
+
+        .pickerText_15a92175.inputFocused_15a92175:after {
+            pointer-events: none;
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: -1px;
+            bottom: -1px;
+            right: -1px;
+            border: 2px solid var(--portalThemeColor4)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .pickerText_15a92175.inputDisabled_15a92175 {
+                position: relative;
+                border-color: GrayText
+            }
+
+            .pickerText_15a92175.inputDisabled_15a92175:after {
+                pointer-events: none;
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                background-color: Window
+            }
+        }
+
+        .pickerInput_15a92175 {
+            height: 34px;
+            border: none;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            outline: 0;
+            padding: 0 6px 0;
+            -ms-flex-item-align: end;
+            align-self: flex-end
+        }
+
+        .pickerItems_15a92175 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            max-width: 100%
+        }
+
+        .screenReaderOnly_15a92175 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .personaContainer_cbad3345 {
+            border-radius: 15px;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background: #fffbf5;
+            margin: 4px;
+            cursor: default;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            vertical-align: middle;
+            position: relative
+        }
+
+        .personaContainer_cbad3345::-moz-focus-inner {
+            border: 0
+        }
+
+        .personaContainer_cbad3345 {
+            outline: transparent
+        }
+
+        .personaContainer_cbad3345 {
+            position: relative
+        }
+
+        .ms-Fabric--isFocusVisible .personaContainer_cbad3345:focus:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            pointer-events: none;
+            border: 1px solid #9a9ea1;
+            border-radius: 0
+        }
+
+        .personaContainer_cbad3345 .ms-Persona-primaryText {
+            color: #c27b02;
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        .personaContainer_cbad3345 .ms-Persona-primaryText.hover_cbad3345 {
+            color: #c27b02
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345 .ms-Persona-primaryText {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345 .actionButton_cbad3345:hover {
+            background: #ffe3b3
+        }
+
+        .personaContainer_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+            color: #c27b02
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345:hover {
+            background: #fff0d7
+        }
+
+        .personaContainer_cbad3345:hover .ms-Persona-primaryText {
+            color: #c27b02;
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345:hover .ms-Persona-primaryText {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 {
+            background: var(--portalThemeColor4)
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .ms-Persona-primaryText {
+            color: var(--portalThemeColor7)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .ms-Persona-primaryText {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 {
+            color: var(--portalThemeColor7)
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+            color: #c27b02
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 .ms-Button-icon:hover {
+            background: #c27b02
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+                color: HighlightText
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 {
+                border-color: Highlight;
+                background: Highlight;
+                -ms-high-contrast-adjust: none
+            }
+        }
+
+        .personaContainer_cbad3345.validationError_cbad3345 .ms-Persona-primaryText {
+            color: #e81123
+        }
+
+        .personaContainer_cbad3345.validationError_cbad3345 .ms-Persona-initials {
+            font-size: 20px
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345 {
+                border: 1px solid WindowText
+            }
+        }
+
+        .personaContainer_cbad3345 .itemContent_cbad3345 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            min-width: 0;
+            max-width: 100%
+        }
+
+        .personaContainer_cbad3345 .removeButton_cbad3345 {
+            border-radius: 15px;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: 33px;
+            height: 33px;
+            -ms-flex-preferred-size: 32px;
+            flex-basis: 32px
+        }
+
+        .personaContainer_cbad3345 .expandButton_cbad3345 {
+            border-radius: 15px 0 0 15px;
+            height: 33px;
+            width: 44px;
+            padding-right: 16px;
+            position: inherit;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-right: -17px
+        }
+
+        .personaContainer_cbad3345 .personaWrapper_cbad3345 {
+            position: relative;
+            display: inherit
+        }
+
+        .personaContainer_cbad3345 .personaWrapper_cbad3345 .ms-Persona-details {
+            padding: 0 8px
+        }
+
+        .personaContainer_cbad3345 .personaDetails_cbad3345 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto
+        }
+
+        .itemContainer_cbad3345 {
+            display: inline-block;
+            vertical-align: top
+        }
+    </style>
+    <meta name="react-film" content="version=3.1.1-main.df870ea">
+    <meta name="react-scroll-to-bottom:version" content="4.2.0">
+    <meta name="web-speech-cognitive-services" content="version=7.1.3">
+    <meta name="botframework-directlinespeech:version" content="4.15.10-main.20230925.afe913c">
+    <meta name="botframework-webchat:bundle:variant" content="full">
+    <meta name="botframework-webchat:bundle:version" content="4.15.10-main.20230925.afe913c">
+    <meta name="botframework-webchat:core:version" content="4.15.10-main.20230925.afe913c">
+    <meta name="botframework-webchat:ui:version" content="4.15.10-main.20230925.afe913c">
+    <style data-emotion="webchat--css-xvsdc" data-s=""></style>
+    <style data-emotion="react-scroll-to-bottom--css-tzqqj" data-s=""></style>
+</head>
+
+<body data-sitemap-state="/" data-dateformat="M/d/yyyy" data-timeformat="h:mm tt" data-datetimeformat="M/d/yyyy h:mm tt"
+    data-app-path="/" data-ckeditor-basepath="/js/BaseHtmlContentDesigner/Libs/msdyncrm_/libs/ckeditor/"
+    data-case-deflection-url="/_services/search/2f79ec95-94ee-46f7-b173-cf6ffe660c72">
+
+
+    <link href="./css/pcf-style.bundle-2659c6f064.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/pcf-style.bundle-2659c6f064.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+
+
+
+
+    <div id="offlineNotificationBar" style="display: none;">
+        <img alt="web" id="web"
+            onerror="javascript: var target = event.target; var img = document.createElement(&#39;img&#39;); img.src = &#39;/css/images/web.png&#39;; img.alt = &#39;web&#39;; img.id = &#39;web&#39; ; target.insertAdjacentElement(&#39;afterend&#39;,img); target.remove();"
+            src="./images/web.png">
+        <div id="message">You’re offline. This is a read only version of the page.</div>
+        <div id="close" onclick="this.parentElement.style.display=&#39;none&#39;;"><img alt="close"
+                onerror="javascript: var target = event.target; var img = document.createElement(&#39;img&#39;); img.src = &#39;/css/images/close.png&#39;; img.alt = &#39;close&#39;; img.id = &#39;&#39; ; target.insertAdjacentElement(&#39;afterend&#39;,img); target.remove();"
+                src="./images/close.png"></div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        window.DisableCkEditor = window.DisableCkEditor || {};
+        DisableCkEditor.Value = 'False';
+    </script>
+
+    <script type="text/javascript">
+        var enableOmniChannelWidgetWithSiteCopilot = 'False';
+        if (enableOmniChannelWidgetWithSiteCopilot === "True" || enableOmniChannelWidgetWithSiteCopilot === "true") {
+            const authUrl = window.location.origin + "/_services/auth/portalusertoken";
+            const fetchWithRetries = async (url, options, retries) => {
+                try {
+                    const authResponse = await fetch(url, options);
+                    const token = await authResponse.text();
+                    sessionStorage['c2Token'] = token;
+                } catch (err) {
+                    if (retries === 1) throw err;
+                    return await fetchWithRetries(url, options, retries - 1);
+                }
+            };
+            fetchWithRetries(authUrl, { method: "POST" }, 4);
+        }
+    </script>
+
+    <script type="text/javascript">
+        var isPvaBotAuthenticated = sessionStorage['isPvaBotAuthenticated'];
+        var isPortalUserLoggedIn = 'False';
+
+        if ((isPvaBotAuthenticated != null || isPvaBotAuthenticated != undefined) && isPvaBotAuthenticated != isPortalUserLoggedIn) {
+            sessionStorage['triggerPvaBotSignOut'] = true;
+            sessionStorage.removeItem('c2Token');
+            sessionStorage.removeItem('directLinetoken');
+            sessionStorage.removeItem('conversation_Id');
+        }
+        sessionStorage['isPvaBotAuthenticated'] = isPortalUserLoggedIn;
+    </script>
+
+    <script type="text/javascript">
+        window["Microsoft"] = window["Microsoft"] || {};
+        window["Microsoft"].Dynamic365 = {
+            Portal: {
+
+                User: {
+                    userName: '',
+                    contactId: ''
+                },
+
+                version: '9.6.6.18',
+                type: 'PowerPages_BlankTemplate_V2',
+                id: 'f26bb586-9183-48d8-8211-3cf9649754e6',
+                geo: 'NAM',
+                tenant: '03c92e06-4b92-4dcc-a65f-55e83fbc34ae',
+                correlationId: '54404752-ba29-4696-bce7-af431191d6ba',
+                isTelemetryEnabled: 'True',
+                InstrumentationSettings: {
+                    instrumentationKey: '197418c5cb8c4426b201f9db2e87b914-87887378-2790-49b0-9295-51f43b6204b1-7172',
+                    collectorEndpoint: 'https://us-mobile.events.data.microsoft.com/OneCollector/1.0/'
+                },
+                timerProfileForBatching: 'NEAR_REAL_TIME'
+            }
+        }
+
+        // Mark request not cacheable if Dynamics365PortalAnalytics cookie is being refreshed by the server or if the cookie in request header is invalid
+
+
+        // For client side telemetry intializing Dynamics365PortalAnalytics cookie object
+
+        window["Microsoft"].Dynamic365.Portal.dynamics365PortalAnalytics = 'KjBmHzS1WNoNxAr7hxgpW0i8TCuSaePu7fvYYP4Dtu_fq_FixYTEOR0jY59JsK0r-Zx0ca8tPYOSnzJvsLxAk2FEzIR8JgKrVtqPwI-3TmUygq3hvrNziwV429ZsHHSJ_QDWW3OcX_QW3AdntkLNZQ2'; // CodeQL [SM00430] False Positive: only alphanumeric chars allowed, for non-alphanumeric char it will return INVALID_CHARACTERS_IN_COOKIE 
+
+
+    </script>
+
+    <script type="text/javascript">
+
+
+
+        const intercept = () => {
+            let send = XMLHttpRequest.prototype.send;
+            XMLHttpRequest.prototype.send = function () {
+                this.addEventListener('readystatechange', function () {
+                    if (this.readyState === 4 && this.getAllResponseHeaders().indexOf("x-ms-user-trace") >= 0 && this.getResponseHeader('x-ms-user-trace')) {
+                        try {
+                            var userTrace = JSON.parse(atob(this.getResponseHeader('x-ms-user-trace')));
+                            document.dispatchEvent(new CustomEvent('updateDevToolRuntime',
+                                { detail: userTrace }
+                            ));
+                        }
+                        catch (err) {
+                            console.log("In intercept for ajax call, Exception while parsing UserTrace header" + err);
+                        }
+                    }
+                }, false);
+                send.apply(this, arguments);
+            };
+        };
+        intercept();
+
+        document.addEventListener("pagesRuntimeMessageProcessedInDevtool", function () {
+            ClientLogWrapper.getLogger().traceInfo("pagesRuntimeMessageProcessedInDevtool", "Devtool");
+        });
+
+
+    </script>
+
+
+
+
+    <div class="navbar navbar-inverse navbar-static-top" role="banner">
+  
+        <div class="container">
+            <div class="navbar-header">
+                <div class="visible-sm-block visible-md-block visible-lg-block visible-xs-block navbar-brand">
+                    <div class="xrm-editable-html xrm-attribute" data-languagecontext="English">
+                        <div class="xrm-attribute-value"><a href="https://mobiusai-a5e2.powerappsportals.com/~/">
+                                <img src="./images/MobiusAIlogo_white.png"
+                                    alt="Mobius-AI is poised to revolutionize the field of fleet management"
+                                    style="width: auto; height: 32px; margin: 0 10px;">
+                                <h1 class="siteTitle"></h1>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" title="Toggle navigation
+" data-toggle="collapse" data-target="#navbar" aria-expanded="false" onclick="setHeight();">
+                    <span class="sr-only">Toggle navigation
+                    </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+
+                <nav aria-label="Main Navigation" class="navbar-right menu-bar " data-weblinks-maxdepth="2">
+                    <ul class="nav navbar-nav weblinks">
+
+
+
+
+
+                        <li class="weblink ">
+                            <a aria-label="Home" href="https://mobiusai-a5e2.powerappsportals.com/"
+                                aria-roledescription="link" title="Home" aria-current="page">
+                                Home
+                            </a>
+
+                        </li>
+
+
+                        <li class="divider-vertical" aria-hidden="true"></li>
+
+
+
+
+                        <li class="weblink ">
+                            <a aria-label="FAQ" href="https://mobiusai-a5e2.powerappsportals.com/faq/"
+                                aria-roledescription="link" title="FAQ">
+                                FAQ
+                            </a>
+
+                        </li>
+
+
+                        <li class="divider-vertical" aria-hidden="true"></li>
+
+
+
+
+                        <li class="weblink ">
+                            <a aria-label="Partnerships" href="https://mobiusai-a5e2.powerappsportals.com/partnerships/"
+                                aria-roledescription="link" title="Partnerships">
+                                Partnerships
+                            </a>
+
+                        </li>
+
+
+
+
+
+
+
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        window.onload = function () {
+            if (window.navigator.appName == 'Microsoft Internet Explorer' || window.navigator.userAgent.indexOf('Trident') > 0) {
+                var searchElement = document.getElementById('search');
+                if (searchElement != null) searchElement.setAttribute('href', '');
+            }
+        };
+        function setHeight() {
+            var windowHeight = window.innerHeight - 140;
+            var navbar = document.getElementById('navbar');
+            if (navbar) {
+                navbar.style.maxHeight = windowHeight + 'px';
+            }
+        }
+        window.addEventListener('resize', function (event) {
+            setHeight();
+        });
+    </script>
+
+
+
+
+    <!-- Default studio template. Please do not modify -->
+    <div id="mainContent" class="wrapper-body" role="main">
+        <div class="page-copy">
+            <div class="xrm-editable-html xrm-attribute">
+                <div class="xrm-attribute-value">
+                    <div id="i895j" class="row sectionBlockLayout"
+                        style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"></div>
+                    <div data-component-theme="portalThemeColor7" id="ihmes" class="row sectionBlockLayout"
+                        style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: 50%; background-image: linear-gradient(0deg, rgba(136, 171, 162, 0.09), rgba(136, 171, 162, 0.09)), url(&quot;/images/logotransparent.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: contain;">
+                        <div class="container">
+                            <div id="ieocf" class="col-md-12 columnBlockLayout"
+                                style="min-width: 250px; word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;">
+                                <h1 id="if2yq"
+                                    style="text-align: center; color: var(--portalThemeColor7); background-color: rgba(0, 0, 0, 1); opacity: 1;">
+                                    Advancing Fleet Management and Dynamic Vehicle Routing with Innovative AI Solutions.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="imnve" data-component-theme="portalThemeColor7" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px; opacity: 1;">
+                        <div id="ijzzi" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div id="iu545" class="col-md-12 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word; margin: 60px 0px; padding: 16px;">
+                                <h1 id="about" style="text-align: center;">About Us</h1>
+                                <div id="is8lt" class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="text-justify">Mobius AI, Inc was founded within the research facilities of
+                                    Vanderbilt University in collaboration with <a draggable="true"
+                                        href="https://smarttransit.ai/" target="_blank"
+                                        class="anchor-inherit-styles">smarttransit.ai</a> university partners. Our team
+                                    of dedicated experts embarked on an innovative mission to transform fleet
+                                    management, with a sharp focus on maximizing efficiency and simplifying the
+                                    intricacies of varied vehicle fleets. Supported by the National Science Foundation
+                                    and the Department of Energy, we have developed a cutting-edge AI platform that
+                                    employs non-myopic sequential decision procedures and meticulously evaluates the
+                                    long-term implications of each choice to enhance fleet performance and routing
+                                    strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-component-theme="portalThemeColor11" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div class="col-md-12 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h1 style="text-align: center;">Mission</h1>
+                                <p class="card-text text-justify">Our mission is to enhance transportation
+                                    sustainability by optimizing fleet operations and implementing dynamic vehicle
+                                    routing solutions. Powered by our partnerships with R1 research institutions,
+                                    patented technologies, and publications in leading AI conferences, we are committed
+                                    to reducing emissions through the integration of modern electric vehicles while
+                                    maximizing the efficiency of existing fleets. Our goal is to improve overall
+                                    operational performance, ensuring a greener and more effective transportation
+                                    system.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="i2qqzl" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div id="izq6dt" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div id="ihg21j" class="col-md-12 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h1 id="id97v8" style="text-align: center;">Pilots and Demonstrations</h1>
+                                <p class="card-text text-justify">Smart Transit is a Pilot demonstration conducted in
+                                    Chattanooga with the core technology components of Mobius AI, Inc Platform.&nbsp;
+                                </p>
+                                <div id="ixrrru" class="col-md-12 columnBlockLayout"
+                                    style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                               
+                                    <iframe src="https://www.youtube.com/embed/xp0dLRlIimw" allowfullscreen="true" style="width: 1106px; height: 450px; left: 0px; top: -450px;""> </iframe>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-component-theme="portalThemeColor11" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div id="iu5451" class="col-md-12 columnBlockLayout"
+                            style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word; margin: 60px 0px; padding: 16px;">
+                            <h1 id="about1" style="text-align: center;">Our Innovations</h1>
+                        </div>
+                        <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div class="col-md-4 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h2 style="text-align: center;">Fuel and Energy Optimization</h2>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="card-text text-justify">Our state-of-the-art AI systems optimize fuel and
+                                    energy efficiency by analyzing engine telemetry, GPS data, and other key metrics to
+                                    optimize energy costs while maximizing service objectives. In partnership with a
+                                    transit agency, we demonstrated savings of over $150K through strategic fleet
+                                    assignments using our advanced machine learning models.</p>
+                            </div>
+                            <div class="col-md-4 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h2 style="text-align: center;">Dynamic Vehicle Routing</h2>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="card-text text-justify">We are transforming the dynamic vehicle routing
+                                    problem (DVRP) with AI solutions that use generative models to predict demand and
+                                    adapt to custom constraints while learning from dispatcher preferences. Developed
+                                    with Vanderbilt University's SmartTransit.ai team, our approach optimizes efficiency
+                                    and has outperformed commercial vendors in real-world tests.</p>
+                            </div>
+                            <div class="col-md-4 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h2 style="text-align: center;">Planning and Analysis</h2>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="card-text text-justify">Our planning and analysis tools continuously learn
+                                    from operational data, integrating census and job data to create custom synthetic
+                                    origin-destination trip datasets for in-depth transportation system analysis.
+                                    Additionally, they offer advanced features like novel charging strategies and
+                                    dynamic adaptation to utility costs, optimizing transportation design in a rapidly
+                                    changing environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="it1zgl" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div id="ilg4gr" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Power virtual agents web template V2.0-->
+
+  
+
+
+
+
+
+    <footer role="contentinfo" class="footer">
+        <div class="footer-bottom hidden-print">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button
+                            onclick="window.location.href=&#39;https://www.linkedin.com/company/mobius-ai-tech/&#39;"
+                            type="button" value="https://www.linkedin.com/company/mobius-ai-tech/" id="irmekq"
+                            class="button1" style="margin-left: auto; margin-right: auto;">Connect on Linkedin</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
