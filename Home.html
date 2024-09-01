@@ -1,0 +1,2361 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://mobiusai-a5e2.powerappsportals.com/ -->
+<html lang="en-US" data-lang="en-US" crm-lang="en-US" dir="ltr" crm-lcid="1033" same-site-mode="None">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style data-merge-styles="true"></style>
+
+    <style data-merge-styles="true"></style>
+    <style data-merge-styles="true"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript">
+
+    </script>
+    <title>
+
+        Home
+
+    </title>
+
+     <script type="text/javascript">
+        // Refresh all powerBI Iframes on Login in one Iframe
+        window.addEventListener('message', function (event) {
+            if (event && event.data && event.data == 'refreshPowerBI') {
+                $("iframe.powerbi").each(function () {
+                    this.src = this.src;
+                });
+            }
+        });
+
+        // Fix for incorrect viewport width setting in IE 10 on Windows Phone 8.
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+
+
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="./css/font-awesome.bundle-3d8a58a48f.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+    <link href="./css/preform.bundle-5181bf1676.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/preform.bundle-5181bf1676.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+
+
+
+
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/portalbasictheme.css" rel="stylesheet">
+
+
+
+
+
+
+
+    <link href="./css/pwa-style.bundle-2739c60227.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/pwa-style.bundle-2739c60227.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+    <style data-load-themed-styles="true" type="text/css">
+        .resultContent_ae2a2ef5 {
+            display: table-row
+        }
+
+        .resultContent_ae2a2ef5 .resultItem_ae2a2ef5 {
+            display: table-cell;
+            vertical-align: bottom
+        }
+
+        .peoplePickerPersona_ae2a2ef5 {
+            width: 180px
+        }
+
+        .peoplePickerPersona_ae2a2ef5 .ms-Persona-details {
+            width: 100%
+        }
+
+        .peoplePicker_ae2a2ef5 .ms-BasePicker-text {
+            min-height: 40px
+        }
+
+        .peoplePickerPersonaContent_ae2a2ef5 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+    </style>
+    <style data-load-themed-styles="true" type="text/css">
+        .callout_0508e60b .ms-Suggestions-itemButton {
+            padding: 0;
+            border: none
+        }
+
+        .callout_0508e60b .ms-Suggestions {
+            min-width: 300px
+        }
+    </style>
+    <style data-load-themed-styles="true" type="text/css">
+        .resultContent_a17eb2a2 {
+            display: table-row
+        }
+
+        .resultContent_a17eb2a2 .resultItem_a17eb2a2 {
+            display: table-cell;
+            vertical-align: bottom
+        }
+
+        .peoplePickerPersona_a17eb2a2 {
+            width: 180px
+        }
+
+        .peoplePickerPersona_a17eb2a2 .ms-Persona-details {
+            width: 100%
+        }
+
+        .peoplePicker_a17eb2a2 .ms-BasePicker-text {
+            min-height: 40px
+        }
+
+        .peoplePickerPersonaContent_a17eb2a2 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 7px 12px
+        }
+    </style>
+    <style type="text/css">
+        .pva-embedded-web-chat-widget {
+            background-color: #484644;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3.2px 7.2px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px;
+            box-sizing: content-box;
+            display: block;
+            height: 44px;
+            margin: 0;
+            margin-left: auto;
+            padding: 0;
+            width: 44px;
+        }
+
+        .pva-embedded-web-chat-widget-icon {
+            display: block;
+            height: 23px;
+            margin: 11.5px 10.5px;
+            padding: 0;
+            width: 21px;
+        }
+
+        .pva-embedded-web-chat-widget-hidden {
+            display: none;
+        }
+
+        .pva-embedded-web-chat-widget:hover .pva-embedded-web-chat-widget-tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .pva-embedded-web-chat-widget .pva-embedded-web-chat-widget-tooltip-text {
+            visibility: hidden;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            font-family: "Segoe UI Semibold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            box-sizing: border-box;
+            border-radius: 2px;
+            box-shadow: rgb(0 0 0 / 13%) 0px 3.2px 7.2px 0px, rgb(0 0 0 / 11%) 0px 0.6px 1.8px 0px;
+            outline: transparent;
+            background: white;
+            padding: 8px;
+            width: 264px;
+            color: #323130;
+            overflow: hidden;
+            height: 34px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .pva-embedded-web-chat-widget-tooltip-text {
+            bottom: 62px;
+            right: 0;
+        }
+    </style>
+    <style type="text/css">
+        .pages-chatbot-header {
+            background-color: rgb(72, 70, 68);
+            color: rgb(255, 255, 255);
+            height: 36px;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 0px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            margin: 0;
+            overflow: auto;
+        }
+
+        .pages-chatbot-header-button-container {
+            display: inline;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .pages-chatbot-header-minimize-button {
+            outline: transparent;
+            position: relative;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            padding: 4px 4px;
+            text-decoration: none;
+            text-align: center;
+            width: 25px;
+            background-color: transparent;
+            user-select: none;
+        }
+
+        .pages-chatbot-header-minimize-tooltip {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0px;
+            border: 0px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .pages-chatbot-header-hidden {
+            display: none;
+        }
+    </style>
+    <script src="./js/webchat.js"></script>
+    <style type="text/css">
+        .pva-embedded-web-chat-window {
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3.2px 7.2px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px;
+            display: block;
+            height: 90%;
+            width: 100%;
+            background: white;
+        }
+
+        .main {
+            margin: 18px;
+            border-radius: 4px;
+        }
+
+        .pva-embedded-web-chat-window-hidden {
+            display: none;
+        }
+
+        .pva-privacy-message {
+            border: none;
+            background: rgb(241, 240, 240);
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3.2px 7.2px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px;
+            display: flex;
+            align-items: center;
+            height: 44px;
+            width: 100%;
+            overflow: auto;
+        }
+
+        .pva-privacy-message p {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 12px;
+            margin-bottom: 16px;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #323130;
+        }
+
+        .webchat__bubble.webchat__bubble--from-user p {
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            color: #323130;
+        }
+
+        .webchat__bubble:not(.webchat__bubble--from-user) p {
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            color: #323130;
+        }
+
+        .webchat__bubble.webchat__bubble--hide-nub .webchat__bubble__nub-pad {
+            width: 8px;
+        }
+
+        .webchat__send-box {
+            background: rgb(241, 240, 240);
+        }
+
+        .webchat__send-box__main {
+            margin: 0 10px;
+            margin-top: 10px;
+            height: 44px;
+            border-radius: 2px;
+        }
+
+        .webchat__send-box-text-box {
+            overflow: hidden;
+        }
+
+        .webchat__send-box-text-box .webchat__send-box-text-box__input {
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+            font-size: 14px !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+        }
+
+        @media (max-width: 450px) {
+            div.pva-embedded-web-chat[data-minimized='false'] {
+                width: 50%;
+            }
+
+            .webchat__keyboard-help__two-panes .webchat__keyboard-help__image {
+                width: 50px;
+            }
+
+            h2.webchat__keyboard-help__header {
+                margin-top: 20px !important;
+            }
+        }
+    </style>
+    <style type="text/css">
+        .pva-embedded-web-chat {
+            border: none;
+            bottom: 16px;
+            box-sizing: border-box;
+            display: block;
+            margin: 0;
+            max-height: calc(100vh - 32px);
+            max-width: calc(100vw - 32px);
+            padding: 0;
+            position: fixed;
+            right: 16px;
+        }
+
+        .pva-embedded-web-chat[data-minimized='false'] {
+            height: 80%;
+            width: 25%;
+            max-width: 400px;
+            max-height: 740px;
+        }
+
+        .pva-embedded-web-chat-widget-container {
+            display: flex;
+            flex-direction: column-reverse;
+            height: 100%;
+        }
+
+        .pva-embedded-web-chat-window-container {
+            height: 100%;
+            width: 100%;
+        }
+
+        .pva-embedded-web-chat[data-minimized='false']>.pva-embedded-web-chat-widget-container {
+            display: none;
+        }
+
+        .pva-embedded-web-chat[data-minimized='false']>.pva-embedded-web-chat-window-container {
+            display: block;
+        }
+
+        .pva-embedded-web-chat[data-minimized='true']>.pva-embedded-web-chat-window-container {
+            display: none;
+        }
+    </style>
+    <style data-load-themed-styles="true">
+        .pickerText_cc9894a7 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #b2b5b8;
+            min-width: 180px;
+            padding: 1px;
+            min-height: 32px
+        }
+
+        .pickerText_cc9894a7:hover {
+            border-color: #ffe3b3
+        }
+
+        .pickerInput_cc9894a7 {
+            height: 34px;
+            border: none;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            outline: 0;
+            padding: 0 6px 0;
+            margin: 1px
+        }
+
+        .pickerInput_cc9894a7::-ms-clear {
+            display: none
+        }
+
+        .root_2f55324e {
+            min-width: 260px
+        }
+
+        .suggestionsItem_2f55324e {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            overflow: hidden
+        }
+
+        .suggestionsItem_2f55324e:hover {
+            background: #f4f4f4
+        }
+
+        .suggestionsItem_2f55324e:hover .closeButton_2f55324e {
+            display: block
+        }
+
+        .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e {
+            background: #eaeaea
+        }
+
+        .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e:hover {
+            background: #c8c8c8
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e:hover {
+                background: Highlight;
+                color: HighlightText
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e {
+                background: Highlight;
+                color: HighlightText;
+                -ms-high-contrast-adjust: none
+            }
+        }
+
+        .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e .closeButton_2f55324e:hover {
+            background: #b2b5b8;
+            color: var(--portalThemeColor8)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .suggestionsItem_2f55324e.suggestionsItemIsSuggested_2f55324e .itemButton_2f55324e {
+                color: HighlightText
+            }
+        }
+
+        .suggestionsItem_2f55324e .closeButton_2f55324e {
+            display: none;
+            color: #9a9ea1
+        }
+
+        .suggestionsItem_2f55324e .closeButton_2f55324e:hover {
+            background: #eaeaea
+        }
+
+        .actionButton_2f55324e {
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+            margin: 0;
+            position: relative;
+            border-top: 1px solid #eaeaea;
+            height: 40px;
+            width: 100%;
+            font-size: 12px
+        }
+
+        [dir=ltr] .actionButton_2f55324e {
+            padding-left: 8px
+        }
+
+        [dir=rtl] .actionButton_2f55324e {
+            padding-right: 8px
+        }
+
+        html[dir=ltr] .actionButton_2f55324e {
+            text-align: left
+        }
+
+        html[dir=rtl] .actionButton_2f55324e {
+            text-align: right
+        }
+
+        .actionButton_2f55324e:hover {
+            background-color: #eaeaea;
+            cursor: pointer
+        }
+
+        .actionButton_2f55324e:active,
+        .actionButton_2f55324e:focus {
+            background-color: #ffe3b3
+        }
+
+        .actionButton_2f55324e .ms-Button-icon {
+            font-size: 16px;
+            width: 25px
+        }
+
+        .actionButton_2f55324e .ms-Button-label {
+            margin: 0 4px 0 9px
+        }
+
+        html[dir=rtl] .actionButton_2f55324e .ms-Button-label {
+            margin: 0 9px 0 4px
+        }
+
+        .buttonSelected_2f55324e {
+            background-color: #ffe3b3
+        }
+
+        .suggestionsTitle_2f55324e {
+            padding: 0 12px;
+            color: var(--portalThemeColor4);
+            font-size: 12px;
+            line-height: 40px;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .suggestionsContainer_2f55324e {
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 300px;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .suggestionsNone_2f55324e {
+            text-align: center;
+            color: #797775;
+            font-size: 12px;
+            line-height: 30px
+        }
+
+        .suggestionsSpinner_2f55324e {
+            margin: 5px 0;
+            white-space: nowrap;
+            line-height: 20px;
+            font-size: 12px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_2f55324e {
+            padding-left: 14px
+        }
+
+        html[dir=rtl] .suggestionsSpinner_2f55324e {
+            padding-right: 14px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_2f55324e {
+            text-align: left
+        }
+
+        html[dir=rtl] .suggestionsSpinner_2f55324e {
+            text-align: right
+        }
+
+        .suggestionsSpinner_2f55324e .ms-Spinner-circle {
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        .suggestionsSpinner_2f55324e .ms-Spinner-label {
+            display: inline-block;
+            margin: 0 10px 0 16px;
+            vertical-align: middle
+        }
+
+        html[dir=rtl] .suggestionsSpinner_2f55324e .ms-Spinner-label {
+            margin: 0 16px 0 10px
+        }
+
+        .itemButton_2f55324e.itemButton_2f55324e {
+            width: 100%;
+            padding: 0;
+            min-width: 0;
+            height: 100%
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .itemButton_2f55324e.itemButton_2f55324e {
+                color: WindowText
+            }
+        }
+
+        .itemButton_2f55324e.itemButton_2f55324e:hover {
+            color: #55595c
+        }
+
+        .closeButton_2f55324e.closeButton_2f55324e {
+            padding: 0 4px;
+            height: auto;
+            width: 32px
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .closeButton_2f55324e.closeButton_2f55324e {
+                color: WindowText
+            }
+        }
+
+        .closeButton_2f55324e.closeButton_2f55324e:hover {
+            background: #c8c8c8;
+            color: #55595c
+        }
+
+        .suggestionsAvailable_2f55324e {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .suggestionsContainer_a151d363 {
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 300px
+        }
+
+        .suggestionsContainer_a151d363 .ms-Suggestion-item:hover {
+            background-color: #f4f4f4;
+            cursor: pointer
+        }
+
+        .suggestionsContainer_a151d363 .is-suggested {
+            background-color: #fff0d7
+        }
+
+        .suggestionsContainer_a151d363 .is-suggested:hover {
+            background-color: #ffe3b3;
+            cursor: pointer
+        }
+
+        .root_e4eecb3d {
+            min-width: 260px
+        }
+
+        .actionButton_e4eecb3d {
+            background: 0 0;
+            background-color: transparent;
+            border: 0;
+            cursor: pointer;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            font-size: 12px
+        }
+
+        html[dir=ltr] .actionButton_e4eecb3d {
+            text-align: left
+        }
+
+        html[dir=rtl] .actionButton_e4eecb3d {
+            text-align: right
+        }
+
+        .actionButton_e4eecb3d:hover {
+            background-color: #f4f4f4;
+            cursor: pointer
+        }
+
+        .actionButton_e4eecb3d:active,
+        .actionButton_e4eecb3d:focus {
+            background-color: #ffe3b3
+        }
+
+        .actionButton_e4eecb3d .ms-Button-icon {
+            font-size: 16px;
+            width: 25px
+        }
+
+        .actionButton_e4eecb3d .ms-Button-label {
+            margin: 0 4px 0 9px
+        }
+
+        html[dir=rtl] .actionButton_e4eecb3d .ms-Button-label {
+            margin: 0 9px 0 4px
+        }
+
+        .buttonSelected_e4eecb3d {
+            background-color: #fff0d7
+        }
+
+        .buttonSelected_e4eecb3d:hover {
+            background-color: #ffe3b3;
+            cursor: pointer
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .buttonSelected_e4eecb3d:hover {
+                background-color: Highlight;
+                color: HighlightText
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .buttonSelected_e4eecb3d {
+                background-color: Highlight;
+                color: HighlightText;
+                -ms-high-contrast-adjust: none
+            }
+        }
+
+        .suggestionsTitle_e4eecb3d {
+            font-size: 12px
+        }
+
+        .suggestionsSpinner_e4eecb3d {
+            margin: 5px 0;
+            white-space: nowrap;
+            line-height: 20px;
+            font-size: 12px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_e4eecb3d {
+            padding-left: 14px
+        }
+
+        html[dir=rtl] .suggestionsSpinner_e4eecb3d {
+            padding-right: 14px
+        }
+
+        html[dir=ltr] .suggestionsSpinner_e4eecb3d {
+            text-align: left
+        }
+
+        html[dir=rtl] .suggestionsSpinner_e4eecb3d {
+            text-align: right
+        }
+
+        .suggestionsSpinner_e4eecb3d .ms-Spinner-circle {
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        .suggestionsSpinner_e4eecb3d .ms-Spinner-label {
+            display: inline-block;
+            margin: 0 10px 0 16px;
+            vertical-align: middle
+        }
+
+        html[dir=rtl] .suggestionsSpinner_e4eecb3d .ms-Spinner-label {
+            margin: 0 16px 0 10px
+        }
+
+        .itemButton_e4eecb3d {
+            height: 100%;
+            width: 100%;
+            padding: 7px 12px
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .itemButton_e4eecb3d {
+                color: WindowText
+            }
+        }
+
+        .screenReaderOnly_e4eecb3d {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .pickerText_15a92175 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #b2b5b8;
+            min-width: 180px;
+            min-height: 30px
+        }
+
+        .pickerText_15a92175:hover {
+            border-color: var(--portalThemeColor8)
+        }
+
+        .pickerText_15a92175.inputFocused_15a92175 {
+            position: relative;
+            border-color: var(--portalThemeColor4)
+        }
+
+        .pickerText_15a92175.inputFocused_15a92175:after {
+            pointer-events: none;
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: -1px;
+            bottom: -1px;
+            right: -1px;
+            border: 2px solid var(--portalThemeColor4)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .pickerText_15a92175.inputDisabled_15a92175 {
+                position: relative;
+                border-color: GrayText
+            }
+
+            .pickerText_15a92175.inputDisabled_15a92175:after {
+                pointer-events: none;
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                background-color: Window
+            }
+        }
+
+        .pickerInput_15a92175 {
+            height: 34px;
+            border: none;
+            -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            outline: 0;
+            padding: 0 6px 0;
+            -ms-flex-item-align: end;
+            align-self: flex-end
+        }
+
+        .pickerItems_15a92175 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            max-width: 100%
+        }
+
+        .screenReaderOnly_15a92175 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0
+        }
+
+        .personaContainer_cbad3345 {
+            border-radius: 15px;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background: #fffbf5;
+            margin: 4px;
+            cursor: default;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            vertical-align: middle;
+            position: relative
+        }
+
+        .personaContainer_cbad3345::-moz-focus-inner {
+            border: 0
+        }
+
+        .personaContainer_cbad3345 {
+            outline: transparent
+        }
+
+        .personaContainer_cbad3345 {
+            position: relative
+        }
+
+        .ms-Fabric--isFocusVisible .personaContainer_cbad3345:focus:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            bottom: -2px;
+            left: -2px;
+            pointer-events: none;
+            border: 1px solid #9a9ea1;
+            border-radius: 0
+        }
+
+        .personaContainer_cbad3345 .ms-Persona-primaryText {
+            color: #c27b02;
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        .personaContainer_cbad3345 .ms-Persona-primaryText.hover_cbad3345 {
+            color: #c27b02
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345 .ms-Persona-primaryText {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345 .actionButton_cbad3345:hover {
+            background: #ffe3b3
+        }
+
+        .personaContainer_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+            color: #c27b02
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345:hover {
+            background: #fff0d7
+        }
+
+        .personaContainer_cbad3345:hover .ms-Persona-primaryText {
+            color: #c27b02;
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345:hover .ms-Persona-primaryText {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 {
+            background: var(--portalThemeColor4)
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .ms-Persona-primaryText {
+            color: var(--portalThemeColor7)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .ms-Persona-primaryText {
+                color: HighlightText
+            }
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 {
+            color: var(--portalThemeColor7)
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+            color: #c27b02
+        }
+
+        .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 .ms-Button-icon:hover {
+            background: #c27b02
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 .actionButton_cbad3345 .ms-Button-icon {
+                color: HighlightText
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345.personaContainerIsSelected_cbad3345 {
+                border-color: Highlight;
+                background: Highlight;
+                -ms-high-contrast-adjust: none
+            }
+        }
+
+        .personaContainer_cbad3345.validationError_cbad3345 .ms-Persona-primaryText {
+            color: #e81123
+        }
+
+        .personaContainer_cbad3345.validationError_cbad3345 .ms-Persona-initials {
+            font-size: 20px
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .personaContainer_cbad3345 {
+                border: 1px solid WindowText
+            }
+        }
+
+        .personaContainer_cbad3345 .itemContent_cbad3345 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            min-width: 0;
+            max-width: 100%
+        }
+
+        .personaContainer_cbad3345 .removeButton_cbad3345 {
+            border-radius: 15px;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: 33px;
+            height: 33px;
+            -ms-flex-preferred-size: 32px;
+            flex-basis: 32px
+        }
+
+        .personaContainer_cbad3345 .expandButton_cbad3345 {
+            border-radius: 15px 0 0 15px;
+            height: 33px;
+            width: 44px;
+            padding-right: 16px;
+            position: inherit;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-right: -17px
+        }
+
+        .personaContainer_cbad3345 .personaWrapper_cbad3345 {
+            position: relative;
+            display: inherit
+        }
+
+        .personaContainer_cbad3345 .personaWrapper_cbad3345 .ms-Persona-details {
+            padding: 0 8px
+        }
+
+        .personaContainer_cbad3345 .personaDetails_cbad3345 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto
+        }
+
+        .itemContainer_cbad3345 {
+            display: inline-block;
+            vertical-align: top
+        }
+    </style>
+    <meta name="react-film" content="version=3.1.1-main.df870ea">
+    <meta name="react-scroll-to-bottom:version" content="4.2.0">
+    <meta name="web-speech-cognitive-services" content="version=7.1.3">
+    <meta name="botframework-directlinespeech:version" content="4.15.10-main.20230925.afe913c">
+    <meta name="botframework-webchat:bundle:variant" content="full">
+    <meta name="botframework-webchat:bundle:version" content="4.15.10-main.20230925.afe913c">
+    <meta name="botframework-webchat:core:version" content="4.15.10-main.20230925.afe913c">
+    <meta name="botframework-webchat:ui:version" content="4.15.10-main.20230925.afe913c">
+    <style data-emotion="webchat--css-xvsdc" data-s=""></style>
+    <style data-emotion="react-scroll-to-bottom--css-tzqqj" data-s=""></style>
+</head>
+
+<body data-sitemap-state="/" data-dateformat="M/d/yyyy" data-timeformat="h:mm tt" data-datetimeformat="M/d/yyyy h:mm tt"
+    data-app-path="/" data-ckeditor-basepath="/js/BaseHtmlContentDesigner/Libs/msdyncrm_/libs/ckeditor/"
+    data-case-deflection-url="/_services/search/2f79ec95-94ee-46f7-b173-cf6ffe660c72">
+
+
+    <link href="./css/pcf-style.bundle-2659c6f064.css"
+        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/pcf-style.bundle-2659c6f064.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+        rel="stylesheet">
+
+
+
+
+
+    <div id="offlineNotificationBar" style="display: none;">
+        <img alt="web" id="web"
+            onerror="javascript: var target = event.target; var img = document.createElement(&#39;img&#39;); img.src = &#39;/css/images/web.png&#39;; img.alt = &#39;web&#39;; img.id = &#39;web&#39; ; target.insertAdjacentElement(&#39;afterend&#39;,img); target.remove();"
+            src="./images/web.png">
+        <div id="message">You’re offline. This is a read only version of the page.</div>
+        <div id="close" onclick="this.parentElement.style.display=&#39;none&#39;;"><img alt="close"
+                onerror="javascript: var target = event.target; var img = document.createElement(&#39;img&#39;); img.src = &#39;/css/images/close.png&#39;; img.alt = &#39;close&#39;; img.id = &#39;&#39; ; target.insertAdjacentElement(&#39;afterend&#39;,img); target.remove();"
+                src="./images/close.png"></div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        window.DisableCkEditor = window.DisableCkEditor || {};
+        DisableCkEditor.Value = 'False';
+    </script>
+
+    <script type="text/javascript">
+        var enableOmniChannelWidgetWithSiteCopilot = 'False';
+        if (enableOmniChannelWidgetWithSiteCopilot === "True" || enableOmniChannelWidgetWithSiteCopilot === "true") {
+            const authUrl = window.location.origin + "/_services/auth/portalusertoken";
+            const fetchWithRetries = async (url, options, retries) => {
+                try {
+                    const authResponse = await fetch(url, options);
+                    const token = await authResponse.text();
+                    sessionStorage['c2Token'] = token;
+                } catch (err) {
+                    if (retries === 1) throw err;
+                    return await fetchWithRetries(url, options, retries - 1);
+                }
+            };
+            fetchWithRetries(authUrl, { method: "POST" }, 4);
+        }
+    </script>
+
+    <script type="text/javascript">
+        var isPvaBotAuthenticated = sessionStorage['isPvaBotAuthenticated'];
+        var isPortalUserLoggedIn = 'False';
+
+        if ((isPvaBotAuthenticated != null || isPvaBotAuthenticated != undefined) && isPvaBotAuthenticated != isPortalUserLoggedIn) {
+            sessionStorage['triggerPvaBotSignOut'] = true;
+            sessionStorage.removeItem('c2Token');
+            sessionStorage.removeItem('directLinetoken');
+            sessionStorage.removeItem('conversation_Id');
+        }
+        sessionStorage['isPvaBotAuthenticated'] = isPortalUserLoggedIn;
+    </script>
+
+    <script type="text/javascript">
+        window["Microsoft"] = window["Microsoft"] || {};
+        window["Microsoft"].Dynamic365 = {
+            Portal: {
+
+                User: {
+                    userName: '',
+                    contactId: ''
+                },
+
+                version: '9.6.6.18',
+                type: 'PowerPages_BlankTemplate_V2',
+                id: 'f26bb586-9183-48d8-8211-3cf9649754e6',
+                geo: 'NAM',
+                tenant: '03c92e06-4b92-4dcc-a65f-55e83fbc34ae',
+                correlationId: '54404752-ba29-4696-bce7-af431191d6ba',
+                isTelemetryEnabled: 'True',
+                InstrumentationSettings: {
+                    instrumentationKey: '197418c5cb8c4426b201f9db2e87b914-87887378-2790-49b0-9295-51f43b6204b1-7172',
+                    collectorEndpoint: 'https://us-mobile.events.data.microsoft.com/OneCollector/1.0/'
+                },
+                timerProfileForBatching: 'NEAR_REAL_TIME'
+            }
+        }
+
+        // Mark request not cacheable if Dynamics365PortalAnalytics cookie is being refreshed by the server or if the cookie in request header is invalid
+
+
+        // For client side telemetry intializing Dynamics365PortalAnalytics cookie object
+
+        window["Microsoft"].Dynamic365.Portal.dynamics365PortalAnalytics = 'KjBmHzS1WNoNxAr7hxgpW0i8TCuSaePu7fvYYP4Dtu_fq_FixYTEOR0jY59JsK0r-Zx0ca8tPYOSnzJvsLxAk2FEzIR8JgKrVtqPwI-3TmUygq3hvrNziwV429ZsHHSJ_QDWW3OcX_QW3AdntkLNZQ2'; // CodeQL [SM00430] False Positive: only alphanumeric chars allowed, for non-alphanumeric char it will return INVALID_CHARACTERS_IN_COOKIE 
+
+
+    </script>
+
+    <script type="text/javascript">
+
+
+
+        const intercept = () => {
+            let send = XMLHttpRequest.prototype.send;
+            XMLHttpRequest.prototype.send = function () {
+                this.addEventListener('readystatechange', function () {
+                    if (this.readyState === 4 && this.getAllResponseHeaders().indexOf("x-ms-user-trace") >= 0 && this.getResponseHeader('x-ms-user-trace')) {
+                        try {
+                            var userTrace = JSON.parse(atob(this.getResponseHeader('x-ms-user-trace')));
+                            document.dispatchEvent(new CustomEvent('updateDevToolRuntime',
+                                { detail: userTrace }
+                            ));
+                        }
+                        catch (err) {
+                            console.log("In intercept for ajax call, Exception while parsing UserTrace header" + err);
+                        }
+                    }
+                }, false);
+                send.apply(this, arguments);
+            };
+        };
+        intercept();
+
+        document.addEventListener("pagesRuntimeMessageProcessedInDevtool", function () {
+            ClientLogWrapper.getLogger().traceInfo("pagesRuntimeMessageProcessedInDevtool", "Devtool");
+        });
+
+
+    </script>
+
+
+
+
+    <div class="navbar navbar-inverse navbar-static-top" role="banner">
+  
+        <div class="container">
+            <div class="navbar-header">
+                <div class="visible-sm-block visible-md-block visible-lg-block visible-xs-block navbar-brand">
+                    <div class="xrm-editable-html xrm-attribute" data-languagecontext="English">
+                        <div class="xrm-attribute-value"><a href="https://mobiusai-a5e2.powerappsportals.com/~/">
+                                <img src="./images/MobiusAIlogo_white.png"
+                                    alt="Mobius-AI is poised to revolutionize the field of fleet management"
+                                    style="width: auto; height: 32px; margin: 0 10px;">
+                                <h1 class="siteTitle"></h1>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" title="Toggle navigation
+" data-toggle="collapse" data-target="#navbar" aria-expanded="false" onclick="setHeight();">
+                    <span class="sr-only">Toggle navigation
+                    </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+
+
+                <nav aria-label="Main Navigation" class="navbar-right menu-bar " data-weblinks-maxdepth="2">
+                    <ul class="nav navbar-nav weblinks">
+
+
+
+
+
+                        <li class="weblink ">
+                            <a aria-label="Home" href="https://mobiusai-a5e2.powerappsportals.com/"
+                                aria-roledescription="link" title="Home" aria-current="page">
+                                Home
+                            </a>
+
+                        </li>
+
+
+                        <li class="divider-vertical" aria-hidden="true"></li>
+
+
+
+
+                        <li class="weblink ">
+                            <a aria-label="FAQ" href="https://mobiusai-a5e2.powerappsportals.com/faq/"
+                                aria-roledescription="link" title="FAQ">
+                                FAQ
+                            </a>
+
+                        </li>
+
+
+                        <li class="divider-vertical" aria-hidden="true"></li>
+
+
+
+
+                        <li class="weblink ">
+                            <a aria-label="Partnerships" href="https://mobiusai-a5e2.powerappsportals.com/partnerships/"
+                                aria-roledescription="link" title="Partnerships">
+                                Partnerships
+                            </a>
+
+                        </li>
+
+
+
+
+
+
+
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        window.onload = function () {
+            if (window.navigator.appName == 'Microsoft Internet Explorer' || window.navigator.userAgent.indexOf('Trident') > 0) {
+                var searchElement = document.getElementById('search');
+                if (searchElement != null) searchElement.setAttribute('href', '');
+            }
+        };
+        function setHeight() {
+            var windowHeight = window.innerHeight - 140;
+            var navbar = document.getElementById('navbar');
+            if (navbar) {
+                navbar.style.maxHeight = windowHeight + 'px';
+            }
+        }
+        window.addEventListener('resize', function (event) {
+            setHeight();
+        });
+    </script>
+
+
+
+    <!-- add anti-forgery token-->
+    <div id="antiforgerytoken" data-url="/_layout/tokenhtml"></div>
+
+
+
+    <!-- Client Telemetry init if telemetry enabled-->
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/client-telemetry.bundle-de96d9b841.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/client-telemetry.bundle-de96d9b841.js" type="text/javascript"></script>
+
+
+
+    <!-- Client Telemetry Wrapper init -->
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/client-telemetry-wrapper.bundle-633e70f51b.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/client-telemetry-wrapper.bundle-633e70f51b.js" type="text/javascript"></script>
+
+    <script>
+        window.clientLogWrapper = new ClientLogWrapper();
+    </script>
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/preform.moment_2_29_4.bundle-4fdd3f639b.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/preform.moment_2_29_4.bundle-4fdd3f639b.js" type="text/javascript"></script>
+
+
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/pcf-dependency.bundle-805a1661b7.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/pcf-dependency.bundle-805a1661b7.js" type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/pcf.bundle-d31fe485ce.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/pcf.bundle-d31fe485ce.js" type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/pcf-extended.bundle-e303d53553.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/pcf-extended.bundle-e303d53553.js" type="text/javascript"></script>
+
+
+    <!-- Default studio template. Please do not modify -->
+    <div id="mainContent" class="wrapper-body" role="main">
+        <div class="page-copy">
+            <div class="xrm-editable-html xrm-attribute">
+                <div class="xrm-attribute-value">
+                    <div id="i895j" class="row sectionBlockLayout"
+                        style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"></div>
+                    <div data-component-theme="portalThemeColor7" id="ihmes" class="row sectionBlockLayout"
+                        style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: 50%; background-image: linear-gradient(0deg, rgba(136, 171, 162, 0.09), rgba(136, 171, 162, 0.09)), url(&quot;/images/logotransparent.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: contain;">
+                        <div class="container">
+                            <div id="ieocf" class="col-md-12 columnBlockLayout"
+                                style="min-width: 250px; word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;">
+                                <h1 id="if2yq"
+                                    style="text-align: center; color: var(--portalThemeColor7); background-color: rgba(0, 0, 0, 1); opacity: 1;">
+                                    Advancing Fleet Management and Dynamic Vehicle Routing with Innovative AI Solutions.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="imnve" data-component-theme="portalThemeColor7" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px; opacity: 1;">
+                        <div id="ijzzi" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div id="iu545" class="col-md-12 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word; margin: 60px 0px; padding: 16px;">
+                                <h1 id="about" style="text-align: center;">About Us</h1>
+                                <div id="is8lt" class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="text-justify">Mobius AI, Inc was founded within the research facilities of
+                                    Vanderbilt University in collaboration with <a draggable="true"
+                                        href="https://smarttransit.ai/" target="_blank"
+                                        class="anchor-inherit-styles">smarttransit.ai</a> university partners. Our team
+                                    of dedicated experts embarked on an innovative mission to transform fleet
+                                    management, with a sharp focus on maximizing efficiency and simplifying the
+                                    intricacies of varied vehicle fleets. Supported by the National Science Foundation
+                                    and the Department of Energy, we have developed a cutting-edge AI platform that
+                                    employs non-myopic sequential decision procedures and meticulously evaluates the
+                                    long-term implications of each choice to enhance fleet performance and routing
+                                    strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-component-theme="portalThemeColor11" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div class="col-md-12 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h1 style="text-align: center;">Mission</h1>
+                                <p class="card-text text-justify">Our mission is to enhance transportation
+                                    sustainability by optimizing fleet operations and implementing dynamic vehicle
+                                    routing solutions. Powered by our partnerships with R1 research institutions,
+                                    patented technologies, and publications in leading AI conferences, we are committed
+                                    to reducing emissions through the integration of modern electric vehicles while
+                                    maximizing the efficiency of existing fleets. Our goal is to improve overall
+                                    operational performance, ensuring a greener and more effective transportation
+                                    system.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="i2qqzl" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div id="izq6dt" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div id="ihg21j" class="col-md-12 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h1 id="id97v8" style="text-align: center;">Pilots and Demonstrations</h1>
+                                <p class="card-text text-justify">Smart Transit is a Pilot demonstration conducted in
+                                    Chattanooga with the core technology components of Mobius AI, Inc Platform.&nbsp;
+                                </p>
+                                <div id="ixrrru" class="col-md-12 columnBlockLayout"
+                                    style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                    <iframe frameborder="0" allowfullscreen="allowfullscreen"
+                                        src="./xp0dLRlIimw.html" controls="controls"
+                                        data-componentname="Video" id="i3f8p6"
+                                        style="max-width: 100%; width: 100%; height: 450px;"> </iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-component-theme="portalThemeColor11" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div id="iu5451" class="col-md-12 columnBlockLayout"
+                            style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word; margin: 60px 0px; padding: 16px;">
+                            <h1 id="about1" style="text-align: center;">Our Innovations</h1>
+                        </div>
+                        <div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;">
+                            <div class="col-md-4 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h2 style="text-align: center;">Fuel and Energy Optimization</h2>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="card-text text-justify">Our state-of-the-art AI systems optimize fuel and
+                                    energy efficiency by analyzing engine telemetry, GPS data, and other key metrics to
+                                    optimize energy costs while maximizing service objectives. In partnership with a
+                                    transit agency, we demonstrated savings of over $150K through strategic fleet
+                                    assignments using our advanced machine learning models.</p>
+                            </div>
+                            <div class="col-md-4 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h2 style="text-align: center;">Dynamic Vehicle Routing</h2>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="card-text text-justify">We are transforming the dynamic vehicle routing
+                                    problem (DVRP) with AI solutions that use generative models to predict demand and
+                                    adapt to custom constraints while learning from dispatcher preferences. Developed
+                                    with Vanderbilt University's SmartTransit.ai team, our approach optimizes efficiency
+                                    and has outperformed commercial vendors in real-world tests.</p>
+                            </div>
+                            <div class="col-md-4 columnBlockLayout"
+                                style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
+                                <h2 style="text-align: center;">Planning and Analysis</h2>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <div class="row sectionBlockLayout"
+                                    style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;">
+                                </div>
+                                <p class="card-text text-justify">Our planning and analysis tools continuously learn
+                                    from operational data, integrating census and job data to create custom synthetic
+                                    origin-destination trip datasets for in-depth transportation system analysis.
+                                    Additionally, they offer advanced features like novel charging strategies and
+                                    dynamic adaptation to utility costs, optimizing transportation design in a rapidly
+                                    changing environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="it1zgl" class="row sectionBlockLayout text-left"
+                        style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+                        <div id="ilg4gr" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/pcf-loader.bundle-f4a0e619b8.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/pcf-loader.bundle-f4a0e619b8.js" type="text/javascript"></script>
+
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/pvaembedded.bundle-a96189cb85.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/pvaembedded.bundle-a96189cb85.js" type="text/javascript"></script>
+
+    <!-- Power virtual agents web template V2.0-->
+
+
+
+
+
+    <div class="pva-floating-style" style="position: absolute; z-index: 1000;">
+        <div name="webChat">
+            <div class="pva-embedded-web-chat" data-minimized="true">
+                <div class="pva-embedded-web-chat-widget-container"><button class="pva-embedded-web-chat-widget"
+                        type="button" aria-label="Open chat window"
+                        aria-describedby="pva-embedded-web-chat-widget-tooltip-text" aria-hidden="false"
+                        tabindex="0"><span class="pva-embedded-web-chat-widget-tooltip-text"
+                            id="pva-embedded-web-chat-widget-tooltip-text">Open chat window</span><i
+                            class="pva-embedded-web-chat-widget-icon"><svg fill="none" height="23" viewBox="0 0 21 23"
+                                width="21">
+                                <path
+                                    d="M19.25 4.22498H20.625V17.975H17.875V22.1L13.75 17.975H8.25L9.625 16.6H14.3193L16.5 18.7806V16.6H19.25V4.22498ZM8.25 15.225L4.125 19.35V15.225H0V0.0999756H17.875V15.225H8.25ZM1.375 13.85H5.5V16.0306L7.68066 13.85H16.5V1.47498H1.375V13.85ZM8.25 12.475V11.1H9.625V12.475H8.25ZM8.9375 4.22498C8.74414 4.22498 8.5651 4.26078 8.40039 4.3324C8.23568 4.40401 8.08887 4.50427 7.95996 4.63318C7.83822 4.75492 7.74154 4.89815 7.66992 5.06287C7.59831 5.22758 7.5625 5.40662 7.5625 5.59998H6.1875C6.1875 5.22042 6.25911 4.86593 6.40234 4.5365C6.54557 4.19991 6.74251 3.90629 6.99316 3.65564C7.24382 3.40499 7.53385 3.20805 7.86328 3.06482C8.19987 2.92159 8.55794 2.84998 8.9375 2.84998C9.31706 2.84998 9.67155 2.92159 10.001 3.06482C10.3376 3.20805 10.6312 3.40499 10.8818 3.65564C11.1325 3.90629 11.3294 4.19991 11.4727 4.5365C11.6159 4.86593 11.6875 5.22042 11.6875 5.59998C11.6875 5.9294 11.6374 6.21944 11.5371 6.47009C11.4368 6.72074 11.3044 6.95349 11.1396 7.16833C10.9749 7.38318 10.7887 7.59086 10.5811 7.79138C10.3734 7.98474 10.1621 8.18884 9.94727 8.40369C9.80404 8.54692 9.71094 8.69731 9.66797 8.85486C9.63216 9.01241 9.61426 9.1807 9.61426 9.35974C9.61426 9.41703 9.61426 9.47791 9.61426 9.54236C9.62142 9.59965 9.625 9.66052 9.625 9.72498H8.25V9.20935C8.25 8.87992 8.30013 8.58988 8.40039 8.33923C8.50065 8.08858 8.62598 7.863 8.77637 7.66248C8.93392 7.46195 9.10221 7.28292 9.28125 7.12537C9.46029 6.96065 9.625 6.79952 9.77539 6.64197C9.93294 6.48442 10.0618 6.32328 10.1621 6.15857C10.2624 5.99386 10.3125 5.80766 10.3125 5.59998C10.3125 5.40662 10.2767 5.22758 10.2051 5.06287C10.1335 4.89815 10.0332 4.75492 9.9043 4.63318C9.78255 4.50427 9.63932 4.40401 9.47461 4.3324C9.3099 4.26078 9.13086 4.22498 8.9375 4.22498Z"
+                                    fill="#FFFFFF"></path>
+                            </svg></i></button></div>
+                <div class="pva-embedded-web-chat-window-container">
+                    <div class="pages-chatbot-header pages-chatbot-header-hidden" aria-hidden="true" tabindex="-1">
+                        Mobius AI bot<div class="pages-chatbot-header-button-container"><button
+                                class="pages-chatbot-header-minimize-button" type="button" aria-label="Minimize"
+                                aria-hidden="true"><svg fill="rgb(255, 255, 255)" viewBox="0 0 512 512">
+                                    <path
+                                        d="M32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z">
+                                    </path>
+                                </svg></button>
+                            <div class="pages-chatbot-header-minimize-tooltip">Minimize</div>
+                        </div>
+                    </div>
+                    <div class="pva-embedded-web-chat-window pva-embedded-web-chat-window-hidden" title="Chat window"
+                        role="main" aria-hidden="true" tabindex="-1">
+                        <div class="webchat__css-custom-properties webchat--css-xvsdc-kfm3b5">
+                            <div class="webchat--css-xvsdc-j7qwjs webchat--css-xvsdc-isn8pt" role="complementary">
+                                <div aria-live="polite" aria-relevant="all"
+                                    class="webchat__toaster webchat--css-xvsdc-1b39fog webchat--css-xvsdc-up31fo"
+                                    role="log">
+                                    <div class="webchat__toaster__list" id="webchat__toaster__list__i2gam"></div>
+                                </div>
+                                <div aria-labelledby="webchat__keyboard-help__header--6lqux"
+                                    class="webchat__keyboard-help webchat--css-xvsdc-at18kd" role="dialog">
+                                    <div class="webchat__keyboard-help__border">
+                                        <div class="webchat__keyboard-help__box">
+                                            <div class="webchat__keyboard-help__scrollable"><button aria-label="Close"
+                                                    class="webchat__keyboard-help__close-button" type="button">
+                                                    <div class="webchat__keyboard-help__close-button-border"><svg
+                                                            class="webchat__keyboard-help__close-button-image"
+                                                            focusable="false" role="presentation"
+                                                            viewBox="0 0 2048 2048" xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M2048 136l-888 888 888 888-136 136-888-888-888 888L0 1912l888-888L0 136 136 0l888 888L1912 0l136 136z">
+                                                            </path>
+                                                        </svg></div>
+                                                </button>
+                                                <h2 class="webchat__keyboard-help__header"
+                                                    id="webchat__keyboard-help__header--6lqux">Keyboard controls</h2>
+                                                <article class="webchat__keyboard-help__section">
+                                                    <header>
+                                                        <h3 class="webchat__keyboard-help__sub-header">Chat window</h3>
+                                                    </header>
+                                                    <div class="webchat__keyboard-help__two-panes"><svg
+                                                            class="webchat__keyboard-help__image webchat__keyboard-help__image--light"
+                                                            fill="none" focusable="false" height="200"
+                                                            role="presentation" viewBox="0 0 121 200" width="121"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect height="199" stroke="#C8C6C4" width="109" x="0.5"
+                                                                y="0.5"></rect>
+                                                            <rect height="156" stroke="#323130" width="102" x="3.5"
+                                                                y="4.5"></rect>
+                                                            <rect height="42" stroke="#C8C6C4" width="93" x="7.5"
+                                                                y="8.5"></rect>
+                                                            <rect height="99" stroke="#C8C6C4" width="93" x="7.5"
+                                                                y="55.5"></rect>
+                                                            <rect height="13" stroke="#323130" width="102" x="3.5"
+                                                                y="182.5"></rect>
+                                                            <rect height="13" stroke="#323130" width="32" x="3.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#323130" width="32" x="38.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#323130" width="32" x="73.5"
+                                                                y="165.5"></rect>
+                                                            <path clip-rule="evenodd"
+                                                                d="M116.328 5.64645C116.524 5.45118 116.84 5.45118 117.036 5.64645L120.218 8.82843C120.413 9.02369 120.413 9.34027 120.218 9.53553C120.022 9.7308 119.706 9.7308 119.51 9.53553L117.182 7.20711V192.793L119.51 190.464C119.706 190.269 120.022 190.269 120.218 190.464C120.413 190.66 120.413 190.976 120.218 191.172L117.036 194.354C116.84 194.549 116.524 194.549 116.328 194.354L113.146 191.172C112.951 190.976 112.951 190.66 113.146 190.464C113.342 190.269 113.658 190.269 113.854 190.464L116.182 192.793V7.20711L113.854 9.53553C113.658 9.7308 113.342 9.7308 113.146 9.53553C112.951 9.34027 112.951 9.02369 113.146 8.82843L116.328 5.64645Z"
+                                                                fill="#323130" fill-rule="evenodd"></path>
+                                                        </svg><svg
+                                                            class="webchat__keyboard-help__image webchat__keyboard-help__image--dark"
+                                                            fill="none" focusable="false" height="200"
+                                                            role="presentation" viewBox="0 0 121 200" width="121"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect height="199" stroke="#484644" width="109" x="0.5"
+                                                                y="0.5"></rect>
+                                                            <rect height="156" stroke="#F3F2F1" width="102" x="3.5"
+                                                                y="4.5"></rect>
+                                                            <rect height="42" stroke="#484644" width="93" x="7.5"
+                                                                y="8.5"></rect>
+                                                            <rect height="99" stroke="#484644" width="93" x="7.5"
+                                                                y="55.5"></rect>
+                                                            <rect height="13" stroke="#F3F2F1" width="102" x="3.5"
+                                                                y="182.5"></rect>
+                                                            <rect height="13" stroke="#F3F2F1" width="32" x="3.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#F3F2F1" width="32" x="38.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#F3F2F1" width="32" x="73.5"
+                                                                y="165.5"></rect>
+                                                            <path clip-rule="evenodd"
+                                                                d="M116.328 5.64645C116.524 5.45118 116.84 5.45118 117.036 5.64645L120.218 8.82843C120.413 9.02369 120.413 9.34027 120.218 9.53553C120.022 9.7308 119.706 9.7308 119.51 9.53553L117.182 7.20711V192.793L119.51 190.464C119.706 190.269 120.022 190.269 120.218 190.464C120.413 190.66 120.413 190.976 120.218 191.172L117.036 194.354C116.84 194.549 116.524 194.549 116.328 194.354L113.146 191.172C112.951 190.976 112.951 190.66 113.146 190.464C113.342 190.269 113.658 190.269 113.854 190.464L116.182 192.793V7.20711L113.854 9.53553C113.658 9.7308 113.342 9.7308 113.146 9.53553C112.951 9.34027 112.951 9.02369 113.146 8.82843L116.328 5.64645Z"
+                                                                fill="#F3F2F1" fill-rule="evenodd"></path>
+                                                        </svg><svg
+                                                            class="webchat__keyboard-help__image webchat__keyboard-help__image--high-contrast"
+                                                            fill="none" focusable="false" height="200"
+                                                            role="presentation" viewBox="0 0 121 200" width="121"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect height="199" stroke="white" width="109" x="0.5"
+                                                                y="0.5"></rect>
+                                                            <rect height="156" stroke="white" width="102" x="3.5"
+                                                                y="4.5"></rect>
+                                                            <rect height="42" stroke="white" width="93" x="7.5" y="8.5">
+                                                            </rect>
+                                                            <rect height="99" stroke="white" width="93" x="7.5"
+                                                                y="55.5"></rect>
+                                                            <rect height="13" stroke="white" width="102" x="3.5"
+                                                                y="182.5"></rect>
+                                                            <rect height="13" stroke="white" width="32" x="3.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="white" width="32" x="38.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="white" width="32" x="73.5"
+                                                                y="165.5"></rect>
+                                                            <path clip-rule="evenodd"
+                                                                d="M116.328 5.64645C116.524 5.45118 116.84 5.45118 117.036 5.64645L120.218 8.82843C120.413 9.02369 120.413 9.34027 120.218 9.53553C120.022 9.7308 119.706 9.7308 119.51 9.53553L117.182 7.20711V192.793L119.51 190.464C119.706 190.269 120.022 190.269 120.218 190.464C120.413 190.66 120.413 190.976 120.218 191.172L117.036 194.354C116.84 194.549 116.524 194.549 116.328 194.354L113.146 191.172C112.951 190.976 112.951 190.66 113.146 190.464C113.342 190.269 113.658 190.269 113.854 190.464L116.182 192.793V7.20711L113.854 9.53553C113.658 9.7308 113.342 9.7308 113.146 9.53553C112.951 9.34027 112.951 9.02369 113.146 8.82843L116.328 5.64645Z"
+                                                                fill="white" fill-rule="evenodd"></path>
+                                                        </svg>
+                                                        <div class="webchat__keyboard-help__notes-pane">
+                                                            <section class="webchat__keyboard-help__notes">
+                                                                <h4 class="webchat__keyboard-help__notes-header">Move
+                                                                    between items in the chat window</h4>
+                                                                <p class="webchat__keyboard-help__notes-text">Tab key
+                                                                </p>
+                                                                <p class="webchat__keyboard-help__notes-text">Shift +
+                                                                    tab key</p>
+                                                            </section>
+                                                            <section class="webchat__keyboard-help__notes">
+                                                                <h4 class="webchat__keyboard-help__notes-header">Do
+                                                                    action</h4>
+                                                                <p class="webchat__keyboard-help__notes-text">Enter key
+                                                                </p>
+                                                            </section>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article class="webchat__keyboard-help__section">
+                                                    <header>
+                                                        <h3 class="webchat__keyboard-help__header">Chat history</h3>
+                                                    </header>
+                                                    <div class="webchat__keyboard-help__two-panes"><svg
+                                                            class="webchat__keyboard-help__image webchat__keyboard-help__image--light"
+                                                            fill="none" focusable="false" height="200"
+                                                            role="presentation" viewBox="0 0 121 200" width="121"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect height="199" stroke="#C8C6C4" width="109" x="0.5"
+                                                                y="0.5"></rect>
+                                                            <rect height="156" stroke="#323130" width="102" x="3.5"
+                                                                y="4.5"></rect>
+                                                            <rect height="42" stroke="#323130" stroke-dasharray="2 2"
+                                                                width="93" x="7.5" y="8.5"></rect>
+                                                            <rect height="99" stroke="#323130" stroke-dasharray="2 2"
+                                                                width="93" x="7.5" y="55.5"></rect>
+                                                            <rect height="13" stroke="#C8C6C4" width="102" x="3.5"
+                                                                y="182.5"></rect>
+                                                            <rect height="13" stroke="#C8C6C4" width="32" x="3.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#C8C6C4" width="32" x="38.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#C8C6C4" width="32" x="73.5"
+                                                                y="165.5"></rect>
+                                                            <path clip-rule="evenodd"
+                                                                d="M116.328 7.64645C116.524 7.45118 116.84 7.45118 117.036 7.64645L120.218 10.8284C120.413 11.0237 120.413 11.3403 120.218 11.5355C120.022 11.7308 119.706 11.7308 119.51 11.5355L117.182 9.20711V156.793L119.51 154.464C119.706 154.269 120.022 154.269 120.218 154.464C120.413 154.66 120.413 154.976 120.218 155.172L117.036 158.354C116.84 158.549 116.524 158.549 116.328 158.354L113.146 155.172C112.951 154.976 112.951 154.66 113.146 154.464C113.342 154.269 113.658 154.269 113.854 154.464L116.182 156.793V9.20711L113.854 11.5355C113.658 11.7308 113.342 11.7308 113.146 11.5355C112.951 11.3403 112.951 11.0237 113.146 10.8284L116.328 7.64645Z"
+                                                                fill="#323130" fill-rule="evenodd"></path>
+                                                        </svg><svg
+                                                            class="webchat__keyboard-help__image webchat__keyboard-help__image--dark"
+                                                            fill="none" focusable="false" height="200"
+                                                            role="presentation" viewBox="0 0 121 200" width="121"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect height="199" stroke="#484644" width="109" x="0.5"
+                                                                y="0.5"></rect>
+                                                            <rect height="156" stroke="#F3F2F1" width="102" x="3.5"
+                                                                y="4.5"></rect>
+                                                            <rect height="42" stroke="#F3F2F1" stroke-dasharray="2 2"
+                                                                width="93" x="7.5" y="8.5"></rect>
+                                                            <rect height="99" stroke="#F3F2F1" stroke-dasharray="2 2"
+                                                                width="93" x="7.5" y="55.5"></rect>
+                                                            <rect height="13" stroke="#484644" width="102" x="3.5"
+                                                                y="182.5"></rect>
+                                                            <rect height="13" stroke="#484644" width="32" x="3.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#484644" width="32" x="38.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="#484644" width="32" x="73.5"
+                                                                y="165.5"></rect>
+                                                            <path clip-rule="evenodd"
+                                                                d="M116.328 7.64645C116.524 7.45118 116.84 7.45118 117.036 7.64645L120.218 10.8284C120.413 11.0237 120.413 11.3403 120.218 11.5355C120.022 11.7308 119.706 11.7308 119.51 11.5355L117.182 9.20711V156.793L119.51 154.464C119.706 154.269 120.022 154.269 120.218 154.464C120.413 154.66 120.413 154.976 120.218 155.172L117.036 158.354C116.84 158.549 116.524 158.549 116.328 158.354L113.146 155.172C112.951 154.976 112.951 154.66 113.146 154.464C113.342 154.269 113.658 154.269 113.854 154.464L116.182 156.793V9.20711L113.854 11.5355C113.658 11.7308 113.342 11.7308 113.146 11.5355C112.951 11.3403 112.951 11.0237 113.146 10.8284L116.328 7.64645Z"
+                                                                fill="#F3F2F1" fill-rule="evenodd"></path>
+                                                        </svg><svg
+                                                            class="webchat__keyboard-help__image webchat__keyboard-help__image--high-contrast"
+                                                            fill="none" focusable="false" height="200"
+                                                            role="presentation" viewBox="0 0 121 200" width="121"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect height="199" stroke="white" width="109" x="0.5"
+                                                                y="0.5"></rect>
+                                                            <rect height="156" stroke="white" width="102" x="3.5"
+                                                                y="4.5"></rect>
+                                                            <rect height="42" stroke="white" stroke-dasharray="2 2"
+                                                                width="93" x="7.5" y="8.5"></rect>
+                                                            <rect height="99" stroke="white" stroke-dasharray="2 2"
+                                                                width="93" x="7.5" y="55.5"></rect>
+                                                            <rect height="13" stroke="white" width="102" x="3.5"
+                                                                y="182.5"></rect>
+                                                            <rect height="13" stroke="white" width="32" x="3.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="white" width="32" x="38.5"
+                                                                y="165.5"></rect>
+                                                            <rect height="13" stroke="white" width="32" x="73.5"
+                                                                y="165.5"></rect>
+                                                            <path clip-rule="evenodd"
+                                                                d="M116.328 7.64645C116.524 7.45118 116.84 7.45118 117.036 7.64645L120.218 10.8284C120.413 11.0237 120.413 11.3403 120.218 11.5355C120.022 11.7308 119.706 11.7308 119.51 11.5355L117.182 9.20711V156.793L119.51 154.464C119.706 154.269 120.022 154.269 120.218 154.464C120.413 154.66 120.413 154.976 120.218 155.172L117.036 158.354C116.84 158.549 116.524 158.549 116.328 158.354L113.146 155.172C112.951 154.976 112.951 154.66 113.146 154.464C113.342 154.269 113.658 154.269 113.854 154.464L116.182 156.793V9.20711L113.854 11.5355C113.658 11.7308 113.342 11.7308 113.146 11.5355C112.951 11.3403 112.951 11.0237 113.146 10.8284L116.328 7.64645Z"
+                                                                fill="white" fill-rule="evenodd"></path>
+                                                        </svg>
+                                                        <div class="webchat__keyboard-help__notes-pane">
+                                                            <section class="webchat__keyboard-help__notes">
+                                                                <h4 class="webchat__keyboard-help__notes-header">Move
+                                                                    between messages</h4>
+                                                                <p class="webchat__keyboard-help__notes-text">Arrow up
+                                                                    key</p>
+                                                                <p class="webchat__keyboard-help__notes-text">Arrow down
+                                                                    key</p>
+                                                            </section>
+                                                            <section class="webchat__keyboard-help__notes">
+                                                                <h4 class="webchat__keyboard-help__notes-header">Access
+                                                                    items in message</h4>
+                                                                <p class="webchat__keyboard-help__notes-text">Enter key
+                                                                </p>
+                                                            </section>
+                                                            <section class="webchat__keyboard-help__notes">
+                                                                <h4 class="webchat__keyboard-help__notes-header">Move
+                                                                    between items in a message</h4>
+                                                                <p class="webchat__keyboard-help__notes-text">Tab key
+                                                                </p>
+                                                                <p class="webchat__keyboard-help__notes-text">Shift +
+                                                                    tab key</p>
+                                                            </section>
+                                                            <section class="webchat__keyboard-help__notes">
+                                                                <h4 class="webchat__keyboard-help__notes-header">Exit
+                                                                    message</h4>
+                                                                <p class="webchat__keyboard-help__notes-text">Escape key
+                                                                </p>
+                                                            </section>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div aria-label="Chat history, press arrow keys to navigate."
+                                    class="webchat__basic-transcript webchat--css-xvsdc-16qv0no webchat--css-xvsdc-1tdc372 webchat--css-xvsdc-1rr4qq7"
+                                    dir="ltr" role="group" tabindex="0"
+                                    aria-activedescendant="webchat__transcript-focus-o1q__activity-4936i">
+                                    <div aria-live="polite" aria-roledescription="chat history"
+                                        class="webchat__live-region-transcript webchat--css-xvsdc-1je9q5d" role="log">
+                                    </div>
+                                    <div tabindex="0"></div>
+                                    <div
+                                        class="react-scroll-to-bottom--css-tzqqj-1n7m0yu webchat__basic-transcript__scrollable">
+                                        <div aria-hidden="true" class="webchat__basic-transcript__filler"></div>
+                                        <section aria-roledescription="chat history"
+                                            class="webchat--css-xvsdc-1l95nvm webchat__basic-transcript__transcript"
+                                            role="feed">
+                                            <article
+                                                class="webchat__basic-transcript__activity webchat__basic-transcript__activity--acknowledged webchat__basic-transcript__activity--read">
+                                                <div aria-labelledby="webchat__basic-transcript__active-descendant-label--ytayg"
+                                                    class="webchat__basic-transcript__activity-active-descendant"
+                                                    id="webchat__transcript-focus-o1q__activity-ytayg" role="article">
+                                                    <div aria-hidden="true" class="webchat--css-xvsdc-111jw2m"
+                                                        id="webchat__basic-transcript__active-descendant-label--ytayg">
+                                                        Bot true said: Hi , I’m Mobius AI bot! How can I help you today?
+                                                    </div>
+                                                </div>
+                                                <div tabindex="0"></div>
+                                                <div>
+                                                    <div class="webchat__basic-transcript__activity-body">
+                                                        <div aria-labelledby="webchat__stacked-layout__id--dq2hu"
+                                                            class="webchat__stacked-layout webchat--css-xvsdc-rctxl4 webchat--css-xvsdc-1vap6r webchat__stacked-layout--show-avatar webchat__stacked-layout--top-callout">
+                                                            <div class="webchat__stacked-layout__main">
+                                                                <div class="webchat__stacked-layout__avatar-gutter">
+                                                                    <div aria-hidden="true"
+                                                                        class="webchat__defaultAvatar webchat--css-xvsdc-1c6pw13 webchat--css-xvsdc-1ms7ti7">
+                                                                        <div
+                                                                            class="webchat__initialsAvatar webchat--css-xvsdc-1h0zvpv webchat--css-xvsdc-l3b7uo">
+                                                                            <div
+                                                                                class="webchat__initialsAvatar__initials">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="webchat__imageAvatar webchat--css-xvsdc-o7d8eg webchat--css-xvsdc-1wvn32q">
+                                                                            <div class="webchat--css-xvsdc-17j40uk webchat__imageAvatar__image"
+                                                                                style="height: 100%; width: 100%;"><img
+                                                                                    alt=""
+                                                                                    src="./images/BotDefaultIcon.svg">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__content">
+                                                                    <div aria-roledescription="message"
+                                                                        class="webchat__stacked-layout__message-row"
+                                                                        id="webchat__stacked-layout__id--dq2hu"
+                                                                        role="group">
+                                                                        <div class="webchat--css-xvsdc-111jw2m">Bot true
+                                                                            said:</div>
+                                                                        <div
+                                                                            class="webchat__bubble webchat__bubble--hide-nub webchat__bubble--nub-on-top webchat--css-xvsdc-1qo0vqe webchat--css-xvsdc-1ssl94x webchat__stacked-layout__message">
+                                                                            <div class="webchat__bubble__nub-pad"></div>
+                                                                            <div class="webchat__bubble__content">
+                                                                                <div
+                                                                                    class="webchat__text-content webchat__text-content--is-markdown webchat--css-xvsdc-nldg41">
+                                                                                    <div
+                                                                                        class="webchat__text-content__markdown webchat__render-markdown webchat--css-xvsdc-bafhim">
+                                                                                        <p>Hi , I’m Mobius AI bot! How
+                                                                                            can I help you today?</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__alignment-pad">
+                                                                </div>
+                                                            </div>
+                                                            <div class="webchat__stacked-layout__status">
+                                                                <div class="webchat__stacked-layout__avatar-gutter">
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__nub-pad"></div>
+                                                                <span
+                                                                    class="webchat__activity-status--slotted webchat__activity-status webchat--css-xvsdc-97vy13">
+                                                                    <div class="webchat--css-xvsdc-111jw2m">Sent at
+                                                                        August 31 at 8:57 AM</div><span
+                                                                        aria-hidden="true">10 minutes ago</span>
+                                                                </span>
+                                                                <div class="webchat__stacked-layout__alignment-pad">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div tabindex="0"></div>
+                                                <div class="webchat__basic-transcript__activity-indicator"></div>
+                                            </article>
+                                            <article
+                                                class="webchat__basic-transcript__activity webchat__basic-transcript__activity--acknowledged webchat__basic-transcript__activity--read">
+                                                <div aria-labelledby="webchat__basic-transcript__active-descendant-label--2j0qw"
+                                                    class="webchat__basic-transcript__activity-active-descendant"
+                                                    id="webchat__transcript-focus-o1q__activity-2j0qw" role="article">
+                                                    <div aria-hidden="true" class="webchat--css-xvsdc-111jw2m"
+                                                        id="webchat__basic-transcript__active-descendant-label--2j0qw">
+                                                        You said: How can we contact you</div>
+                                                </div>
+                                                <div tabindex="0"></div>
+                                                <div>
+                                                    <div class="webchat__basic-transcript__activity-body">
+                                                        <div aria-labelledby="webchat__stacked-layout__id--yi4ki"
+                                                            class="webchat__stacked-layout webchat--css-xvsdc-rctxl4 webchat--css-xvsdc-1vap6r webchat__stacked-layout--from-user webchat__stacked-layout--show-avatar webchat__stacked-layout--top-callout">
+                                                            <div class="webchat__stacked-layout__main">
+                                                                <div class="webchat__stacked-layout__avatar-gutter">
+                                                                    <div aria-hidden="true"
+                                                                        class="webchat__defaultAvatar webchat__defaultAvatar--fromUser webchat--css-xvsdc-1c6pw13 webchat--css-xvsdc-1ms7ti7">
+                                                                        <div
+                                                                            class="webchat__initialsAvatar webchat__initialsAvatar--fromUser webchat--css-xvsdc-1h0zvpv webchat--css-xvsdc-l3b7uo">
+                                                                            <div
+                                                                                class="webchat__initialsAvatar__initials">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="webchat__imageAvatar webchat--css-xvsdc-o7d8eg webchat--css-xvsdc-1wvn32q">
+                                                                            <div class="webchat--css-xvsdc-17j40uk webchat__imageAvatar__image"
+                                                                                style="height: 100%; width: 100%;"><img
+                                                                                    alt="" src="./images/user.svg">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__content">
+                                                                    <div aria-roledescription="message"
+                                                                        class="webchat__stacked-layout__message-row"
+                                                                        id="webchat__stacked-layout__id--yi4ki"
+                                                                        role="group">
+                                                                        <div class="webchat--css-xvsdc-111jw2m">You
+                                                                            said:</div>
+                                                                        <div
+                                                                            class="webchat__bubble webchat__bubble--from-user webchat__bubble--hide-nub webchat__bubble--nub-on-top webchat--css-xvsdc-1qo0vqe webchat--css-xvsdc-1ssl94x webchat__stacked-layout__message">
+                                                                            <div class="webchat__bubble__nub-pad"></div>
+                                                                            <div class="webchat__bubble__content">
+                                                                                <p
+                                                                                    class="webchat__text-content webchat__text-content--is-plain webchat--css-xvsdc-nldg41">
+                                                                                    How can we contact you</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__alignment-pad">
+                                                                </div>
+                                                            </div>
+                                                            <div class="webchat__stacked-layout__status">
+                                                                <div class="webchat__stacked-layout__avatar-gutter">
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__nub-pad"></div>
+                                                                <span
+                                                                    class="webchat__activity-status--slotted webchat__activity-status webchat__activity-status--self webchat--css-xvsdc-97vy13">
+                                                                    <div class="webchat--css-xvsdc-111jw2m">Sent at
+                                                                        August 31 at 9:06 AM</div><span
+                                                                        aria-hidden="true">Just now</span>
+                                                                </span>
+                                                                <div class="webchat__stacked-layout__alignment-pad">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div tabindex="0"></div>
+                                                <div class="webchat__basic-transcript__activity-indicator"></div>
+                                            </article>
+                                            <article
+                                                class="webchat__basic-transcript__activity webchat__basic-transcript__activity--read">
+                                                <div aria-labelledby="webchat__basic-transcript__active-descendant-label--4936i"
+                                                    class="webchat__basic-transcript__activity-active-descendant"
+                                                    id="webchat__transcript-focus-o1q__activity-4936i" role="article">
+                                                    <div aria-hidden="true" class="webchat--css-xvsdc-111jw2m"
+                                                        id="webchat__basic-transcript__active-descendant-label--4936i">
+                                                        Bot true said: To contact Mobius AI for assistance, you can
+                                                        integrate Mobius AI’s platform into your business operations by
+                                                        contacting their team for a consultation. They will work with
+                                                        you to provide tailored solutions to meet your specific needs 1.
+                                                        One or more links in the message.</div>
+                                                </div>
+                                                <div tabindex="0"></div>
+                                                <div>
+                                                    <div class="webchat__basic-transcript__activity-body">
+                                                        <div aria-labelledby="webchat__stacked-layout__id--xn6on"
+                                                            class="webchat__stacked-layout webchat--css-xvsdc-rctxl4 webchat--css-xvsdc-1vap6r webchat__stacked-layout--show-avatar webchat__stacked-layout--top-callout">
+                                                            <div class="webchat__stacked-layout__main">
+                                                                <div class="webchat__stacked-layout__avatar-gutter">
+                                                                    <div aria-hidden="true"
+                                                                        class="webchat__defaultAvatar webchat--css-xvsdc-1c6pw13 webchat--css-xvsdc-1ms7ti7">
+                                                                        <div
+                                                                            class="webchat__initialsAvatar webchat--css-xvsdc-1h0zvpv webchat--css-xvsdc-l3b7uo">
+                                                                            <div
+                                                                                class="webchat__initialsAvatar__initials">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="webchat__imageAvatar webchat--css-xvsdc-o7d8eg webchat--css-xvsdc-1wvn32q">
+                                                                            <div class="webchat--css-xvsdc-17j40uk webchat__imageAvatar__image"
+                                                                                style="height: 100%; width: 100%;"><img
+                                                                                    alt=""
+                                                                                    src="./images/BotDefaultIcon.svg">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__content">
+                                                                    <div aria-roledescription="message"
+                                                                        class="webchat__stacked-layout__message-row"
+                                                                        id="webchat__stacked-layout__id--xn6on"
+                                                                        role="group">
+                                                                        <div class="webchat--css-xvsdc-111jw2m">Bot true
+                                                                            said:</div>
+                                                                        <div
+                                                                            class="webchat__bubble webchat__bubble--hide-nub webchat__bubble--nub-on-top webchat--css-xvsdc-1qo0vqe webchat--css-xvsdc-1ssl94x webchat__stacked-layout__message">
+                                                                            <div class="webchat__bubble__nub-pad"></div>
+                                                                            <div class="webchat__bubble__content">
+                                                                                <div
+                                                                                    class="webchat__text-content webchat__text-content--is-markdown webchat--css-xvsdc-nldg41">
+                                                                                    <div
+                                                                                        class="webchat__text-content__markdown webchat__render-markdown webchat--css-xvsdc-bafhim">
+                                                                                        <p>To contact Mobius AI for
+                                                                                            assistance, you can
+                                                                                            integrate Mobius AI’s
+                                                                                            platform into your business
+                                                                                            operations by contacting
+                                                                                            their team for a
+                                                                                            consultation. They will work
+                                                                                            with you to provide tailored
+                                                                                            solutions to meet your
+                                                                                            specific needs <a
+                                                                                                href="https://mobiusai-a5e2.powerappsportals.com/faq/"
+                                                                                                aria-label="1 mobiusai-a5e2.powerappsportals.com Opens in a new window; external."
+                                                                                                class="webchat__render-markdown__pure-identifier"
+                                                                                                rel="noopener noreferrer"
+                                                                                                target="_blank">1<img
+                                                                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                                                                    alt=""
+                                                                                                    class="webchat__render-markdown__external-link-icon"
+                                                                                                    title="Opens in a new window; external."></a>.
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <details
+                                                                                        class="webchat--css-xvsdc-8u3lbl webchat__link-definitions"
+                                                                                        open="">
+                                                                                        <summary
+                                                                                            class="webchat__link-definitions__header">
+                                                                                            1 reference <svg
+                                                                                                class="webchat__link-definitions__header-chevron"
+                                                                                                fill="none" height="10"
+                                                                                                viewBox="1 3 10 7"
+                                                                                                width="14"
+                                                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                                                <path
+                                                                                                    d="M2.14645 4.64645C2.34171 4.45118 2.65829 4.45118 2.85355 4.64645L6 7.79289L9.14645 4.64645C9.34171 4.45118 9.65829 4.45118 9.85355 4.64645C10.0488 4.84171 10.0488 5.15829 9.85355 5.35355L6.35355 8.85355C6.15829 9.04882 5.84171 9.04882 5.64645 8.85355L2.14645 5.35355C1.95118 5.15829 1.95118 4.84171 2.14645 4.64645Z"
+                                                                                                    fill="currentcolor">
+                                                                                                </path>
+                                                                                            </svg></summary>
+                                                                                        <div class="webchat__link-definitions__list"
+                                                                                            role="list">
+                                                                                            <div class="webchat__link-definitions__list-item"
+                                                                                                role="listitem"><a
+                                                                                                    class="webchat__link-definitions__list-item-box webchat__link-definitions__list-item-box--as-link"
+                                                                                                    href="https://mobiusai-a5e2.powerappsportals.com/faq/"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    target="_blank">
+                                                                                                    <div
+                                                                                                        class="webchat__link-definitions__list-item-body">
+                                                                                                        <div
+                                                                                                            class="webchat__link-definitions__badge">
+                                                                                                            1</div>
+                                                                                                        <div
+                                                                                                            class="webchat__link-definitions__list-item-text">
+                                                                                                            mobiusai-a5e2.powerappsportals.com
+                                                                                                        </div><svg
+                                                                                                            class="webchat__text-content__open-in-new-window-icon webchat__link-definitions__open-in-new-window-icon"
+                                                                                                            viewBox="3 3 18 18"
+                                                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                                                            <path
+                                                                                                                d="M7.2501 4.50017H10.7495C11.1637 4.50017 11.4995 4.83596 11.4995 5.25017C11.4995 5.62986 11.2173 5.94366 10.8513 5.99332L10.7495 6.00017H7.24974C6.07079 5.99961 5.10349 6.90656 5.00786 8.06112L5.00028 8.22003L5.00312 16.7507C5.00343 17.9415 5.92885 18.9161 7.09966 18.9949L7.25371 19.0001L15.7518 18.9884C16.9415 18.9868 17.9145 18.062 17.9935 16.8923L17.9987 16.7384V13.2321C17.9987 12.8179 18.3345 12.4821 18.7487 12.4821C19.1284 12.4821 19.4422 12.7643 19.4918 13.1303L19.4987 13.2321V16.7384C19.4987 18.7407 17.9293 20.3769 15.9528 20.4829L15.7538 20.4884L7.25827 20.5001L7.05495 20.4949C5.14239 20.3954 3.60895 18.8627 3.50837 16.9502L3.50312 16.7511L3.50089 8.2527L3.50529 8.0502C3.60539 6.13749 5.13867 4.60449 7.05096 4.50527L7.2501 4.50017H10.7495H7.2501ZM13.7481 3.00146L20.3018 3.00197L20.4014 3.01575L20.5022 3.04393L20.559 3.06803C20.6122 3.09122 20.6634 3.12163 20.7111 3.15885L20.7804 3.22156L20.8641 3.32014L20.9183 3.41025L20.957 3.50057L20.9762 3.56476L20.9898 3.62862L20.9992 3.72282L20.9997 10.2554C20.9997 10.6696 20.6639 11.0054 20.2497 11.0054C19.87 11.0054 19.5562 10.7232 19.5065 10.3571L19.4997 10.2554L19.4989 5.56147L12.2797 12.7847C12.0134 13.051 11.5968 13.0753 11.3031 12.8575L11.219 12.7849C10.9527 12.5187 10.9284 12.1021 11.1462 11.8084L11.2188 11.7243L18.4369 4.50146H13.7481C13.3684 4.50146 13.0546 4.21931 13.005 3.85324L12.9981 3.75146C12.9981 3.37177 13.2803 3.05797 13.6464 3.00831L13.7481 3.00146Z"
+                                                                                                                fill="currentcolor">
+                                                                                                            </path>
+                                                                                                        </svg>
+                                                                                                    </div>
+                                                                                                </a></div>
+                                                                                        </div>
+                                                                                    </details>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__alignment-pad">
+                                                                </div>
+                                                            </div>
+                                                            <div class="webchat__stacked-layout__status">
+                                                                <div class="webchat__stacked-layout__avatar-gutter">
+                                                                </div>
+                                                                <div class="webchat__stacked-layout__nub-pad"></div>
+                                                                <span
+                                                                    class="webchat__activity-status--slotted webchat__activity-status webchat--css-xvsdc-97vy13">
+                                                                    <div class="webchat--css-xvsdc-111jw2m">Sent at
+                                                                        August 31 at 9:06 AM</div><span
+                                                                        aria-hidden="true">Just now</span>
+                                                                </span>
+                                                                <div class="webchat__stacked-layout__alignment-pad">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div tabindex="0"></div>
+                                                <div
+                                                    class="webchat__basic-transcript__activity-indicator webchat__basic-transcript__activity-indicator--focus">
+                                                </div>
+                                            </article>
+                                        </section>
+                                    </div>
+                                    <div tabindex="0"></div>
+                                    <div aria-labelledby="webchat__basic-transcript__terminator-label--xlqzx"
+                                        class="webchat__basic-transcript__terminator" role="note" tabindex="0">
+                                        <div class="webchat__basic-transcript__terminator-body">
+                                            <div class="webchat__basic-transcript__terminator-text"
+                                                id="webchat__basic-transcript__terminator-label--xlqzx">End of chat
+                                                history</div>
+                                        </div>
+                                    </div>
+                                    <div class="webchat__basic-transcript__focus-indicator"></div>
+                                </div>
+                                <div class="webchat--css-xvsdc-111jw2m">Connectivity Status: Connected</div>
+                                <div aria-invalid="false"
+                                    class="webchat__send-box webchat--css-xvsdc-17dm1da webchat--css-xvsdc-1bfjcn2 webchat--css-xvsdc-6su6fj"
+                                    dir="ltr" role="form">
+                                    <div class="webchat__send-box__main">
+                                        <form aria-disabled="false"
+                                            class="webchat__send-box-text-box webchat--css-xvsdc-titn9n webchat--css-xvsdc-l8jf8i webchat__send-box__text-box">
+                                            <input class="webchat__send-box-text-box__input"
+                                                placeholder="Type your message" aria-label="Message input box"
+                                                data-id="webchat-sendbox-input" inputmode="text" type="text" value="">
+                                        </form><button
+                                            class="webchat--css-xvsdc-1r0ige7 webchat__icon-button webchat__icon-button--stretch webchat__send-button webchat__send-box__button webchat__send-box__button--align-stretch"
+                                            title="Send" type="button">
+                                            <div class="webchat__icon-button__shade"></div><svg
+                                                class="webchat__send-icon webchat--css-xvsdc-varv44" height="28"
+                                                viewBox="0 0 45.7 33.8" width="28">
+                                                <path clip-rule="evenodd"
+                                                    d="M8.55 25.25l21.67-7.25H11zm2.41-9.47h19.26l-21.67-7.23zm-6 13l4-11.9L5 5l35.7 11.9z">
+                                                </path>
+                                            </svg>
+                                            <div class="webchat__icon-button__keyboard-focus-indicator"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div><span class="webchat__submit-error-message webchat--css-xvsdc-1e9i5sl"
+                                id="webchat__send-box__error-message-id--v4nyk" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="pva-privacy-message" aria-hidden="true" tabindex="-1" style="display: none;">
+                        <p>Bot responses are AI-generated so inaccuracies are possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" id="pvaChatInlineScript">
+            var botConfig = { "skillConfigViewName": "Mobius AI bot Answers" };
+            // Learn more about advanced configuration: https://go.microsoft.com/fwlink/?linkid=2147420
+            const webChatHeaderStyleOptions = botConfig?.webChatHeaderStyleOptions;
+            const webChatCanvasStyleOptions = botConfig?.webChatCanvasStyleOptions;
+            const webChatWidgetStyleOptions = botConfig?.webChatWidgetStyleOptions;
+            var botMaximizedByDefault = botConfig?.botMaximizedByDefault;
+            var botTitle = botConfig?.headerText;
+            var region = "prod";
+            var botTemplate = "powerpages-1.0.0";
+            var botAuthenticationMode = "4";
+
+            if (!botTitle || botTitle == undefined || botTitle == "" || botTitle.length == 0) {
+                botTitle = "Mobius AI bot";
+            }
+
+            if (!botMaximizedByDefault || botMaximizedByDefault == undefined) {
+                botMaximizedByDefault = false;
+            }
+
+            let chatWidth = "320px";
+            let chatHeight = "500px";
+            if (screen.width > 992) {
+                chatWidth = "25%";
+                chatHeight = "80%";
+            }
+            window.PvaEmbeddedWebChat.renderWebChat(
+                {
+                    "container": document.getElementsByName('webChat')[0],
+                    "botSchemaName": "cr1a7_f26bb586-9183-48d8-8211-3cf9649754e6",
+                    "environmentId": "427e411f-285e-ec6d-8852-d81cd1409518",
+                    "width": chatWidth,
+                    "height": chatHeight,
+                    "client": "msportals", // client and version is needed for the ease of future breaking changes
+                    "version": "v1",
+                    "headerText": botTitle,
+                    "webChatCanvasStyleOptions": webChatCanvasStyleOptions,
+                    "webChatHeaderStyleOptions": webChatHeaderStyleOptions,
+                    "webChatWidgetStyleOptions": webChatWidgetStyleOptions,
+                    "accessibilityLanguage": "en-US",
+                    "botMaximizedByDefault": botMaximizedByDefault,
+                    "region": region,
+                    "botTemplate": botTemplate,
+                    "botAuthenticationMode": botAuthenticationMode
+                });
+        </script>
+    </div>
+
+
+
+    <div id="pp-native-controls-react-root"></div>
+    <script>window._nativeControlConfig = { "publicPath": "https://content.powerapps.com/resource/powerappsportal/controls", "versions": { "pcf_loader": "0.0.18", "pcf_controls": "0.0.26", "mf_shared": "0.1.14", "host": "0.1.19", "data_grid": "0.2.18", "controls_fluent_v9": "0.0.21" } }</script>
+    <script defer="defer" src="./js/main.688f7e4d22.chunk.js"></script>
+
+
+
+
+    <footer role="contentinfo" class="footer">
+        <div class="footer-bottom hidden-print">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button
+                            onclick="window.location.href=&#39;https://www.linkedin.com/company/mobius-ai-tech/&#39;"
+                            type="button" value="https://www.linkedin.com/company/mobius-ai-tech/" id="irmekq"
+                            class="button1" style="margin-left: auto; margin-right: auto;">Connect on Linkedin</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            const accessibilityLinkContainer = document.getElementById('accessibilityLinkContainer');
+            switch (window.navigator.language) {
+                case 'fr':
+                    if (accessibilityLinkContainer != null) {
+                        const accessibilityText = 'Accessibilité : partiellement conforme';
+                        const frenchAccessibilityAnchor = document.createElement('a');
+                        frenchAccessibilityAnchor.id = 'frenchAccesssibleLink';
+                        frenchAccessibilityAnchor.target = '_blank';
+                        frenchAccessibilityAnchor.href = 'https://go.microsoft.com/fwlink/?linkid=2163806';
+                        frenchAccessibilityAnchor.title = accessibilityText;
+                        frenchAccessibilityAnchor.innerText = accessibilityText;
+                        accessibilityLinkContainer.appendChild(frenchAccessibilityAnchor);
+                    }
+                    break;
+                case 'it':
+                    if (accessibilityLinkContainer != null) {
+                        const accessibilityText = 'Accessibilità: parzialmente conforme';
+                        const italianAccessibilityAnchor = document.createElement('a');
+                        italianAccessibilityAnchor.id = 'italianAccesssibleLink';
+                        italianAccessibilityAnchor.target = '_blank';
+                        italianAccessibilityAnchor.href = 'https://go.microsoft.com/fwlink/?linkid=2208177';
+                        italianAccessibilityAnchor.title = accessibilityText;
+                        italianAccessibilityAnchor.innerText = accessibilityText;
+                        accessibilityLinkContainer.appendChild(italianAccessibilityAnchor);
+                    }
+                    break;
+                default:
+                    accessibilityLinkContainer.remove();
+            }
+        };
+    </script>
+
+
+
+
+
+
+
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/bootstrap.bundle-105a4995b8.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/bootstrap.bundle-105a4995b8.js" type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/postpreform.bundle-184c77da50.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/postpreform.bundle-184c77da50.js" type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/app.bundle-d1614465be.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/app.bundle-d1614465be.js" type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement(&#39;script&#39;); script.crossOrigin = target.crossOrigin; script.src = &#39;/dist/default-1033.moment_2_29_4.bundle-eda4e638fd.js&#39;; script.type = &#39;text/javascript&#39;; target.insertAdjacentElement(&#39;afterend&#39;,script);"
+        src="./js/default-1033.moment_2_29_4.bundle-eda4e638fd.js" type="text/javascript"></script>
+
+
+
+
+
+    <script>
+        //this event will update the title of the page based on active breadcrumb
+        $('.breadcrumb').ready(function () {
+            if ($('.breadcrumb').is(':visible')) {
+                document.querySelector('title').innerHTML = ($('.breadcrumb > li.active').text() + "");
+            }
+        });
+
+        function GoToNewEditor() {
+            var editCmsUrlSegment = "EditInCms";
+            var currentUrl = window.location.href;
+            if (currentUrl.indexOf('?') > -1) {
+                var urlSegments = currentUrl.split("?");
+                window.location.href = window.location.origin + '/' + editCmsUrlSegment + window.location.pathname + '?' + urlSegments[1];
+            }
+            else {
+                window.location.href = window.location.origin + '/' + editCmsUrlSegment + window.location.pathname;
+            }
+        }
+    </script>
+
+
+
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            }).catch(function (err) {
+                console.log('Service Worker unregister action failed: ', err);
+            });
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
