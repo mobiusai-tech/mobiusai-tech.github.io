@@ -13,6 +13,9 @@ layout: compress
         Mobius AI, Inc
     </title>
 
+<script src="{{ base_path }}/js/jquery/jquery.min.js"></script>
+<script src="{{ base_path }}/js/stylish-portfolio.min.js"></script>
+
 <script type="text/javascript">
     window.onload = function () {
         if (window.navigator.appName == 'Microsoft Internet Explorer' || window.navigator.userAgent.indexOf('Trident') > 0) {
@@ -41,12 +44,14 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
     document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
 }
 </script>
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="./css/font-awesome.bundle-3d8a58a48f.css"
         onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
         rel="stylesheet">
     <link href="./css/theme.css" rel="stylesheet">
     <link href="./css/portalbasictheme.css" rel="stylesheet">
+    <link href="{{  base_path }}/css/stylish-portfolio.css" rel="stylesheet">
+
 
  
     <meta name="react-film" content="version=3.1.1-main.df870ea">
@@ -65,113 +70,60 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
     data-app-path="/" data-ckeditor-basepath="/js/BaseHtmlContentDesigner/Libs/msdyncrm_/libs/ckeditor/"
     data-case-deflection-url="/_services/search/2f79ec95-94ee-46f7-b173-cf6ffe660c72">
 
-
+    <div class="container-fluid align-left  bg-dark text-white" id="banner">
+        <div class="row">
+          <div class="col-12 masthead2">
+            <h3 class="mdc-typography--headline3 p-1" >
+              <img src="{{base_path}}/images/MobiusAIlogo_white.png" alt="" height="40">
+       </h3>
+              <!-- <a href="{{ base_path }}/">SmartTransit.ai </a> -->
+             <!-- <div class="d-none d-lg-inline"> - Optimizing Multi-modal Mixed Fleet Transit Operations</div>  -->
+          </div>
+      </div>
+      </div>
     <link href="./css/pcf-style.bundle-2659c6f064.css"
         onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/pcf-style.bundle-2659c6f064.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
         rel="stylesheet">
 
-
-
-
-
-   
-
-     
-
-  
-
-  
-
-
-
-
-    <div class="navbar navbar-inverse navbar-static-top" role="banner">
-  
-        <div class="container">
-            <div class="navbar-header">
-                <div class="visible-sm-block visible-md-block visible-lg-block visible-xs-block navbar-brand">
-                    <div class="xrm-editable-html xrm-attribute" data-languagecontext="English">
-                        <div class="xrm-attribute-value"><a href="/">
-                                <img src="./images/MobiusAIlogo_white.png"
-                                    alt="Mobius-AI is poised to revolutionize the field of fleet management"
-                                    style="width: auto; height: 32px; margin: 0 10px;">
-                                <h1 class="siteTitle"></h1>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-<!-- <button type="button" class="navbar-toggle collapsed" title="Toggle navigation " data-toggle="collapse" data-target="#navbar" aria-expanded="false" onclick="setHeight();"> -->
-
-<!-- <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-                    <span class="sr-only">Toggle navigation
-                    </span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button> -->
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-
-
-                <nav aria-label="Main Navigation" class="navbar-right menu-bar " data-weblinks-maxdepth="2">
-                    <ul class="nav navbar-nav weblinks">
-
-
-
-
-
-                        <li class="weblink ">
-                            <a aria-label="Home" href="/"
-                                aria-roledescription="link" title="Home" aria-current="page">
-                                Home
-                            </a>
-
-                        </li>
-
-
-                        <li class="divider-vertical" aria-hidden="true"></li>
-
-
-
-
-                        <li class="weblink ">
-                            <a aria-label="FAQ" href="/faq.html"
-                                aria-roledescription="link" title="FAQ">
-                                FAQ
-                            </a>
-
-                        </li>
-
-
-                        <li class="divider-vertical" aria-hidden="true"></li>
-
-
-
-
-                        <li class="weblink ">
-                            <a aria-label="Partnerships" href="/partnerships.html"
-                                aria-roledescription="link" title="Partnerships">
-                                Partnerships
-                            </a>
-
-                        </li>
-
-
-
-
-
-
-
-
-                    </ul>
-
-                </nav>
-
-            </div>
-        </div>
-    </div>
+        {% for entry in site.data.navigation %}
+        {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+            {% if fullurl == page.url %}
+                {% assign current_page = fullurl %}
+                {% break %}
+            {% elsif page.url contains fullurl %}
+                {% assign current_page = fullurl %}
+            {% endif %}
+        {% endfor %}
+        <a class="menu-toggle rounded" href="#">
+            <i class="fas fa-bars"></i>
+          </a>
+          <!-- Then we build the nav bar. -->
+          <nav id="sidebar-wrapper">
+              <ul  class="sidebar-nav">
+              {% for entry in site.data.navigation %}
+                  {% if entry.url == current_page %}
+                      {% assign class = ' class="js-scroll-trigger text-primary"' %}
+                  {% else %}
+                    {% assign class = ' class="js-scroll-trigger"' %}
+                      <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
+                      {% assign current = null %}
+                  {% endif %}
+                  {% assign sublinks = entry.sublinks %}
+                  {% if sublinks %}
+                  <li class="sidebar-nav-item">
+                      <a {{ class }}  href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+                      <ul>
+                          {% for sublink in sublinks %}
+                          <li class="sidebar-nav-item text-white"><a  class="js-scroll-trigger"  href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+                          {% endfor %}
+                      </ul>
+                  </li>
+                  {% else %}
+                  <li  class="sidebar-nav-item" ><a {{ class }}  href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+                  {% endif %}
+              {% endfor %}
+              </ul>
+          </nav>
 
 
 
