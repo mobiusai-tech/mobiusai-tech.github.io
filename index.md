@@ -99,8 +99,7 @@ redirect_from:
                         </div>
                         <p class="card-text text-justify">Our state-of-the-art AI systems optimize fuel and
                             energy efficiency by analyzing engine telemetry, GPS data, and other key metrics to
-                            optimize energy costs while maximizing service objectives. In partnership with a
-                            transit agency, we demonstrated savings of over $150K through strategic fleet
+                            optimize energy costs while maximizing service objectives. In partnership with Chattanooga Area Regional Transportation Authority, we demonstrated savings of over $150K through strategic fleet
                             assignments using our advanced machine learning models.</p>
                     </div>
                     <div class="col-md-4 columnBlockLayout"
@@ -113,7 +112,7 @@ redirect_from:
                             problem (DVRP) with AI solutions that use generative models to predict demand and
                             adapt to custom constraints while learning from dispatcher preferences. Developed
                             with Vanderbilt University's SmartTransit.ai team, our approach optimizes efficiency
-                            and has outperformed commercial vendors in real-world tests.</p>
+                            and has outperformed other vendors in real-world tests.</p>
                     </div>
                     <div class="col-md-4 columnBlockLayout"
                         style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
