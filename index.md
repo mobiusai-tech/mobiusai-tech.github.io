@@ -39,10 +39,8 @@ redirect_from:
                             <p class="text-justify">Mobius AI, Inc was founded within the research facilities of
                                 Vanderbilt University in collaboration with <a draggable="true"
                                     href="https://smarttransit.ai/" target="_blank"
-                                    class="anchor-inherit-styles">smarttransit.ai</a> university partners. Our team
-                                of dedicated experts embarked on an innovative mission to transform fleet
-                                management, with a sharp focus on maximizing efficiency and simplifying the
-                                intricacies of varied vehicle fleets. Supported by the National Science Foundation
+                                    class="anchor-inherit-styles">smarttransit.ai</a>  partners. We focus on transforming fleet management and routing in NEMT, mass transit, over the road freight and last mile delivery with a sharp focus on maximizing efficiency and simplifying the
+                                intricacies of varied vehicle fleets, including electric vehicles.  Supported by the National Science Foundation
                                 and the Department of Energy, we have developed a cutting-edge AI platform that
                                 employs non-myopic sequential decision procedures and meticulously evaluates the
                                 long-term implications of each choice to enhance fleet performance and routing
