@@ -77,8 +77,13 @@ redirect_from:
                             <!-- </p> -->
                             <div id="ixrrru" class="col-md-12 columnBlockLayout"
                                 style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;">
-                            
-<iframe src="https://www.youtube.com/embed/xp0dLRlIimw" allowfullscreen="true" style="width: 1106px; height: 450px; left: 0px; top: -450px;"> </iframe>
+
+<div class="col-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xp0dLRlIimw" allowfullscreen="true"></iframe>
+</div>
+</div>                            
+<!-- <iframe src="https://www.youtube.com/embed/xp0dLRlIimw" allowfullscreen="true" style="width: 1106px; height: 450px; left: 0px; top: -450px;"> </iframe> -->
 
 </div>
 </div>
