@@ -13,15 +13,34 @@ layout: compress
         Mobius AI, Inc
     </title>
 
-     <script type="text/javascript">
-        // Refresh all powerBI Iframes on Login in one Iframe
-        // Fix for incorrect viewport width setting in IE 10 on Windows Phone 8.
-        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-            var msViewportStyle = document.createElement("style");
-            msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
-            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+<script type="text/javascript">
+    window.onload = function () {
+        if (window.navigator.appName == 'Microsoft Internet Explorer' || window.navigator.userAgent.indexOf('Trident') > 0) {
+        var searchElement = document.getElementById('search');
+        if (searchElement != null) searchElement.setAttribute('href', '');
         }
-    </script>
+    };
+    function setHeight() {
+        var windowHeight = window.innerHeight - 140;
+        var navbar = document.getElementById('navbar');
+        if (navbar) {
+        navbar.style.maxHeight = windowHeight + 'px';
+        }
+    }
+    window.addEventListener('resize', function (event) {
+        setHeight();
+    });
+</script>
+
+<script type="text/javascript">
+// Refresh all powerBI Iframes on Login in one Iframe
+// Fix for incorrect viewport width setting in IE 10 on Windows Phone 8.
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement("style");
+    msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+}
+</script>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/font-awesome.bundle-3d8a58a48f.css"
         onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
