@@ -13,57 +13,27 @@ layout: compress
         Mobius AI, Inc
     </title>
 
-<script src="{{ base_path }}/js/jquery/jquery.min.js"></script>
-<script src="{{ base_path }}/js/stylish-portfolio.min.js"></script>
 
-<script type="text/javascript">
-    window.onload = function () {
-        if (window.navigator.appName == 'Microsoft Internet Explorer' || window.navigator.userAgent.indexOf('Trident') > 0) {
-        var searchElement = document.getElementById('search');
-        if (searchElement != null) searchElement.setAttribute('href', '');
-        }
-    };
-    function setHeight() {
-        var windowHeight = window.innerHeight - 140;
-        var navbar = document.getElementById('navbar');
-        if (navbar) {
-        navbar.style.maxHeight = windowHeight + 'px';
-        }
-    }
-    window.addEventListener('resize', function (event) {
-        setHeight();
-    });
-</script>
-
-<script type="text/javascript">
-// Refresh all powerBI Iframes on Login in one Iframe
-// Fix for incorrect viewport width setting in IE 10 on Windows Phone 8.
-if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-    var msViewportStyle = document.createElement("style");
-    msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
-    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-}
-</script>
-    <link href="./css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link href="./css/font-awesome.bundle-3d8a58a48f.css"
-        onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
-        rel="stylesheet">
-    <link href="./css/theme.css" rel="stylesheet">
-    <link href="./css/portalbasictheme.css" rel="stylesheet">
-    <link href="{{  base_path }}/css/stylish-portfolio.css" rel="stylesheet">
+<link href="./css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="./css/font-awesome.bundle-3d8a58a48f.css"
+    onerror="javascript: var target = event.target; var link = document.createElement(&#39;link&#39;); link.crossOrigin = target.crossOrigin; link.href = &#39;/dist/font-awesome.bundle-3d8a58a48f.css&#39;; link.rel = &#39;stylesheet&#39;; target.insertAdjacentElement(&#39;afterend&#39;,link);"
+    rel="stylesheet">
+<link href="./css/theme.css" rel="stylesheet">
+<link href="./css/portalbasictheme.css" rel="stylesheet">
+<link href="{{  base_path }}/css/stylish-portfolio.css" rel="stylesheet">
 
 
- 
-    <meta name="react-film" content="version=3.1.1-main.df870ea">
-    <meta name="react-scroll-to-bottom:version" content="4.2.0">
-    <meta name="web-speech-cognitive-services" content="version=7.1.3">
-    <meta name="botframework-directlinespeech:version" content="4.15.10-main.20230925.afe913c">
-    <meta name="botframework-webchat:bundle:variant" content="full">
-    <meta name="botframework-webchat:bundle:version" content="4.15.10-main.20230925.afe913c">
-    <meta name="botframework-webchat:core:version" content="4.15.10-main.20230925.afe913c">
-    <meta name="botframework-webchat:ui:version" content="4.15.10-main.20230925.afe913c">
-    <style data-emotion="webchat--css-xvsdc" data-s=""></style>
-    <style data-emotion="react-scroll-to-bottom--css-tzqqj" data-s=""></style>
+
+<meta name="react-film" content="version=3.1.1-main.df870ea">
+<meta name="react-scroll-to-bottom:version" content="4.2.0">
+<meta name="web-speech-cognitive-services" content="version=7.1.3">
+<meta name="botframework-directlinespeech:version" content="4.15.10-main.20230925.afe913c">
+<meta name="botframework-webchat:bundle:variant" content="full">
+<meta name="botframework-webchat:bundle:version" content="4.15.10-main.20230925.afe913c">
+<meta name="botframework-webchat:core:version" content="4.15.10-main.20230925.afe913c">
+<meta name="botframework-webchat:ui:version" content="4.15.10-main.20230925.afe913c">
+<style data-emotion="webchat--css-xvsdc" data-s=""></style>
+<style data-emotion="react-scroll-to-bottom--css-tzqqj" data-s=""></style>
 </head>
 
 <body data-sitemap-state="/" data-dateformat="M/d/yyyy" data-timeformat="h:mm tt" data-datetimeformat="M/d/yyyy h:mm tt"
@@ -145,6 +115,11 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         </div>
     </div>
 </footer>
+
+<script src="{{ base_path }}/js/jquery/jquery.min.js"></script>
+<script src="{{ base_path }}/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ base_path }}/js/jquery-easing/jquery.easing.min.js"></script>
+<script src="{{ base_path }}/js/stylish-portfolio.js"></script>
 
 </body>
 

@@ -1,19 +1,7 @@
 # main links links
 
 - title: Home
-  url: /
-  sublinks:
-    - title: About Us
-      url: /#aboutus
-    - title: Focus Areas
-      url: /#research
-    - title: Spotlight
-      url: /#spotlight
-    - title: Partnering Organizations
-      url: /#team
-    - title: People
-      url: /#people
-    
+  url: /    
 
 - title: "Partnerships"
   url: /partnerships.html
