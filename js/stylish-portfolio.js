@@ -29,14 +29,17 @@
     $(".menu-toggle").removeClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
   });
+  
 
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
-    if (scrollDistance > 100) {
+    if (scrollDistance > 100) {        
       $('.scroll-to-top').fadeIn();
-    } else {
+      $("#toggleswitch").hide();
+    } else {       
       $('.scroll-to-top').fadeOut();
+      $("#toggleswitch").show();
     }
   });
 
