@@ -11,7 +11,7 @@ layout: default
 
 <h1>SMS opt-in for Mobi Motion sign-in codes</h1>
 
-<p>This page documents how a user consents to receive text messages from Mobius.AI, Inc., and what those messages contain. It exists so the opt-in flow can be reviewed without installing the app.</p>
+<p>This page documents how a user consents to receive text messages from Mobius.AI, Inc., and what those messages contain.</p>
 
 <h2>Who sends these messages</h2>
 
@@ -48,12 +48,12 @@ Your Mobi Motion sign-in code is 123456. It expires in 5 minutes.
 
 <h2>The opt-in screens</h2>
 
-<p>Screenshots of the actual application. The disclosure appears beneath the number field, before the user submits.</p>
+<p>The disclosure appears on the same screen as the number field, before the user submits.</p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 24px; margin: 24px 0;">
   <figure style="flex: 1 1 260px; margin: 0;">
     <img src="/images/sms-opt-in/signin.png" alt="Mobi Motion sign-in screen showing the mobile number field and the SMS disclosure" style="width: 100%; max-width: 320px; border: 1px solid #ddd;">
-    <figcaption style="font-size: 0.9em; color: #555; margin-top: 8px;">Step 1 — the user enters their mobile number. The disclosure and the links to Terms and Privacy Policy are on this screen, above the fold.</figcaption>
+    <figcaption style="font-size: 0.9em; color: #555; margin-top: 8px;">Step 1 — the user enters their mobile number. The disclosure and the links to Terms and Privacy Policy appear on this screen.</figcaption>
   </figure>
   <figure style="flex: 1 1 260px; margin: 0;">
     <img src="/images/sms-opt-in/verify.png" alt="Mobi Motion code entry screen" style="width: 100%; max-width: 320px; border: 1px solid #ddd;">
@@ -70,8 +70,6 @@ Your Mobi Motion sign-in code is 123456. It expires in 5 minutes.
   <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Help</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Reply <strong>HELP</strong>, or email <a href="mailto:Inquiries@mobiusai.tech">Inquiries@mobiusai.tech</a>.</td></tr>
   <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Carriers</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Carriers are not liable for delayed or undelivered messages.</td></tr>
 </table>
-
-<p>Because these messages are sign-in codes, a user who replies STOP will no longer be able to receive them. Signing in by email remains available, and support can be reached at the address above.</p>
 
 <h2>Policies</h2>
 
