@@ -18,7 +18,8 @@ layout: default
 <ul>
   <li><strong>Business:</strong> Mobius.AI, Inc.</li>
   <li><strong>Product:</strong> Mobi Motion — demand-responsive public transit software used by transit agencies and their riders and drivers</li>
-  <li><strong>Support:</strong> <a href="mailto:Inquiries@mobiusai.tech">Inquiries@mobiusai.tech</a></li>
+  <li><strong>Business address:</strong> 615 Main Street, Nashville, Tennessee 37206, United States</li>
+  <li><strong>Support:</strong> <a href="mailto:Inquiries@mobiusai.tech">Inquiries@mobiusai.tech</a> or <a href="tel:+16292742888">+1 (629) 274-2888</a></li>
   <li><strong>Website:</strong> <a href="https://www.mobiusai.tech/">www.mobiusai.tech</a></li>
 </ul>
 
@@ -67,7 +68,7 @@ Your Mobi Motion sign-in code is 123456. It expires in 5 minutes.
   <tr><td style="padding: 8px; border-bottom: 1px solid #eee; width: 34%;"><strong>Message frequency</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Varies with use — one message each time the user requests a sign-in code.</td></tr>
   <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Cost</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">We charge nothing. Standard message and data rates may apply from the user's carrier.</td></tr>
   <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Opt out</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Reply <strong>STOP</strong> to cancel.</td></tr>
-  <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Help</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Reply <strong>HELP</strong>, or email <a href="mailto:Inquiries@mobiusai.tech">Inquiries@mobiusai.tech</a>.</td></tr>
+  <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Help</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Reply <strong>HELP</strong>, email <a href="mailto:Inquiries@mobiusai.tech">Inquiries@mobiusai.tech</a>, or call <a href="tel:+16292742888">+1 (629) 274-2888</a>.</td></tr>
   <tr><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>Carriers</strong></td><td style="padding: 8px; border-bottom: 1px solid #eee;">Carriers are not liable for delayed or undelivered messages.</td></tr>
 </table>
 
